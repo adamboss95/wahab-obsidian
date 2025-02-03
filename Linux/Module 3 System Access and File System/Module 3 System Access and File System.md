@@ -17,6 +17,76 @@
 strace -e open pwd
 ```
 
+**/boot**
+
+Contains file that is used by the boot loader (grub.cfg)
+
+**/root**
+
+root user home directory. It is not same as /
+
+**/dev** 
+
+System devices (e.g. disk, cdrom, speakers, flashdrive, keyboard etc.)
+
+**/etc** 
+
+Configuration files
+
+**/bin → /usr/bin** 
+
+Everyday user commands
+
+**/sbin → /usr/sbin** 
+
+System/filesystem commands
+
+**/opt** 
+
+Optional add-on applications (Not part of OS apps)
+
+**/proc**
+
+Running processes (Only exist in Memory)
+
+**/lib → usr/lib**
+
+C programming library files needed by commands and apps.
+
+Check which libraries the command use
+
+```
+strace -e open pwd
+```
+
+**/tmp**
+
+Directory for temporary files
+
+**/home**  
+
+Directory for user
+
+**/var**  
+
+System logs
+
+**/run**  
+
+System daemons that start very early (e.g. systemd and udev) to store temporary runtime files like PID files
+
+**/mnt**  
+
+To mount external filesystem. (e.g. NFS)
+
+**/media**  
+
+For cdrom mounts.
+
+**Structure**
+
+![[Linux File System Structure.png]]
+
 ### 6. Linux File or Directory Properties
 
 ### 7. Linux File Types
@@ -54,7 +124,7 @@ touch filename1 filename2 filename 3
 ```
 
 - ![[Pasted image 20250109114557.png]]
-- vi (to quit editor use command ':wq!')
+- vi (to save and quit editor use command ':wq!' or shift+zz)
 ```
 vi filename
 ```
@@ -69,7 +139,7 @@ mkdir dirName
 ### 12. Copying Directories
 - copying elders directory into folder5 and naming it as EldersBackup
 	- ![[Pasted image 20250109115858.png]]
-- using mv command to copy single or multiple files to another directory, in this case moving multiple files at once using absolute path
+- using mv command to move single or multiple files to another directory, in this case moving multiple files at once using absolute path
 ```
 mv tom jerry spike /home/abdulwahab/Downloads/folders5/folder9
 ```

@@ -1,35 +1,43 @@
 ##### Jan 09, 2025
-# SOC Analyst Training
-## Linux Training
+# Linux Training
 
-### Module 3
-1. Access to Linux
+## Module 3
+### 1. Access to Linux
 	- two types 1. Console, 2. Remote
-2. Access to Linux via Putty (Putty used for access to Linux using windows)
-3. Command Prompts and Getting Prompts Back
-4. Introduction to Linux File System
-5. File System Structure and its Description
+
+### 2. Access to Linux via Putty (Putty used for access to Linux using windows)
+
+### 3. Command Prompts and Getting Prompts Back
+
+### 4. Introduction to Linux File System
+
+### 5. File System Structure and its Description
 	- to check library behind commands 'strace -e open pwd'
-6. Linux File or Directory Properties
-7. Linux File Types
+
+### 6. Linux File or Directory Properties
+
+### 7. Linux File Types
 	- ![[Pasted image 20250109105003.png]]
-8. What is Root?
+
+### 8. What is Root?
 	- 3 types 
 		- Root Account
 		- Root as /
 		- Root Home Directory
 	- ![[Pasted image 20250109105730.png]]
-9. Changing Password in Linux
+
+### 9. Changing Password in Linux
 ```
 passwd userid
 ```
 
 - ![[Pasted image 20250109112118.png]]
-10. File System Path
+
+### 10. File System Path
 	- two paths
 		- Absolute Path
 		- Relative Path
-11. Creating Files and Directories
+### 11. Creating Files and Directories
 	- ![[Pasted image 20250109113009.png]]
 - to create file with touch, and to create file with cp
 ```
@@ -54,7 +62,8 @@ vi filename
 mkdir dirName
 ```
 - ![[Pasted image 20250109114838.png]]
-12. Copying Directories
+
+### 12. Copying Directories
 - copying elders directory into folder5 and naming it as EldersBackup
 	- ![[Pasted image 20250109115858.png]]
 - using mv command to copy single or multiple files to another directory, in this case moving multiple files at once using absolute path
@@ -62,7 +71,8 @@ mkdir dirName
 mv tom jerry spike /home/abdulwahab/Downloads/folders5/folder9
 ```
 - ![[Pasted image 20250109120922.png]]
-13. Finding Files and Directories find locate
+
+### 13. Finding Files and Directories find locate
 	- two commands to find file/directories
 		1. find
 ```
@@ -90,7 +100,8 @@ locate whitebeard
 - ![[Pasted image 20250109122627.png]]
 - Find vs Locate
 	- **Find** searches file system while **locate** searches database
-14. WildCards
+
+### 14. WildCards
 - three type  * , ? , [] 
 - * = (asterisk)
 	- i want to remove the files whos name starts from straw using *
@@ -116,7 +127,8 @@ ls -l *[rht]*
 	- ^ = (caret) "the beginning of the line"
 	- $ = (dollar sign) "the end of the line"
 
-15. Soft and Hard Links
+
+### 15. Soft and Hard Links
 - inode = a number assigned by the computer to a file that we create or is created
 - soft link = a link that will be removed if file is removed or renamed
 ```

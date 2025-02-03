@@ -1,0 +1,2 @@
+- chmod a-r pirates
+- chmod g+w whitebeard

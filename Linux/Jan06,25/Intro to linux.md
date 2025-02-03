@@ -1,0 +1,5 @@
+- installation, configuration
+- access to linux system
+- command prompts and getting prompts back,introduction to linux file system, file system structure and description
+- file system navigation and command, cd, ls, pwd,
+- 

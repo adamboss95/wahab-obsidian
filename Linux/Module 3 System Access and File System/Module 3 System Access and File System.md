@@ -93,10 +93,14 @@ For cdrom mounts.
 - ![[Pasted image 20250109105003.png]]
 
 ### 8. What is Root?
-	- 3 types 
-		- Root Account
-		- Root as /
-		- Root Home Directory
+**3 types of root on Linux system**
+
+1. *Root account :* most powerful account.
+
+2. *Root as /:*  very first directory in Linux also called root directory
+
+3. *Root home directory:* the root use account home directory
+
 - ![[Pasted image 20250109105730.png]]
 
 ### 9. Changing Password in Linux
@@ -107,9 +111,30 @@ passwd userid
 - ![[Pasted image 20250109112118.png]]
 
 ### 10. File System Path
-	- two paths
-		- Absolute Path
-		- Relative Path
+Two paths
+- Absolute Path
+- Relative Path
+
+**Absolute Paths**
+
+This indicates that the path starts at the root directory.
+
+*Begins with a '/'.* 
+
+```
+cd /var/log/httpd
+```
+
+**Relative path**
+
+Identifies the path relative to your current location.
+
+*Not Begins with a '/'.* 
+
+```
+cd Desktop
+```
+
 ### 11. Creating Files and Directories
 - ![[Pasted image 20250109113009.png]]
 - to create file with touch, and to create file with cp
@@ -207,25 +232,34 @@ ls -l *[rht]*
 ```
 ln -s
 ```
+
 - hard link = removing or moving the file doesn't affect the hard link
 ```
 ln
 ```
+
 ![[Pasted image 20250109171057.png]]
+
 - **Soft Link**: created a file named dragon in folder10 directory, then added a text to the file using echo, then created a link from previous folder5 directory, used cat to display the contents of the file from the created link
+
 ![[Pasted image 20250109172634.png]]
+
 ```
 touch folder10/dragon
 ```
+
 ```
 echo "one piece is real" > folder10/dragon
 ```
+
 ```
 ln -s folder10/dragon
 ```
+
 ```
 cat dragon
 ```
+
 ```
 rm folder10/dragon
 ```
@@ -234,23 +268,63 @@ rm folder10/dragon
 ```
 touch folder10/garp
 ```
+
 ```
 ln folder10/garp
 ```
+
 ```
 echo "vice admiral garp" > folder10/garp
 ```
+
 ```
 cat garp
 ```
+
 ```
 cat folder10/garp
 ```
+
 ```
 rm folder10/garp
 ```
+
 ```
 cat garp
 ```
+
 ![[Pasted image 20250109175036.png]]
 - after removing the garp file in folder10 directory, the hard link still shows the content of removed file
+
+
+### 16. Navigating File System
+
+Changing Directory
+
+```
+cd
+```
+
+Print working directory
+
+```
+pwd
+```
+
+List the content of directory
+
+```
+ls
+```
+
+### 17. Linux File Types
+
+**File Symbol** ---> *Meaning* 
+
+ **\-** ---> *Regular file*
+ **d** ---> *Directory*
+ **l** ---> *link*
+ **c** ---> *special file or device file*
+ **s** ---> *socket*
+ **p** ---> *named pipe*
+ **b** ---> *block* *device*

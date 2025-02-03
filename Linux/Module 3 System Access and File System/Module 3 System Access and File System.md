@@ -12,19 +12,22 @@
 ### 4. Introduction to Linux File System
 
 ### 5. File System Structure and its Description
-	- to check library behind commands 'strace -e open pwd'
+- to check library behind commands 
+```
+strace -e open pwd
+```
 
 ### 6. Linux File or Directory Properties
 
 ### 7. Linux File Types
-	- ![[Pasted image 20250109105003.png]]
+- ![[Pasted image 20250109105003.png]]
 
 ### 8. What is Root?
 	- 3 types 
 		- Root Account
 		- Root as /
 		- Root Home Directory
-	- ![[Pasted image 20250109105730.png]]
+- ![[Pasted image 20250109105730.png]]
 
 ### 9. Changing Password in Linux
 ```
@@ -38,7 +41,7 @@ passwd userid
 		- Absolute Path
 		- Relative Path
 ### 11. Creating Files and Directories
-	- ![[Pasted image 20250109113009.png]]
+- ![[Pasted image 20250109113009.png]]
 - to create file with touch, and to create file with cp
 ```
 touch filename , cp filename newfilename

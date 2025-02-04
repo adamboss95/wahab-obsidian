@@ -223,6 +223,9 @@ ls -l *[rht]*
 - other wildcards include: 
 	- \ = (slash) "as an escape character"
 	- ^ = (caret) "the beginning of the line"
+```
+rpm -qa | grep ^fire
+```
 	- $ = (dollar sign) "the end of the line"
 
 

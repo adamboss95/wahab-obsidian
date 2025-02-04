@@ -220,13 +220,6 @@ ls -l str?aw*
 ls -l *[rht]*
 ```
 ![[Pasted image 20250109165540.png]]
-- other wildcards include: 
-	- \ = (slash) "as an escape character"
-	- ^ = (caret) "the beginning of the line"
-```
-rpm -qa | grep ^fire
-```
-	- $ = (dollar sign) "the end of the line"
 
 
 ### 15. Soft and Hard Links

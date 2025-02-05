@@ -416,22 +416,9 @@ passwd -d username
 	- find / -perm /6000 -type f
 - Stick bit
 	- It is assigned to the last bit of permissions
-- ==These bits work on c programming executables not on bash shell scripts==
+```
+chmod +t filename
+```
+
 - ![[Pasted image 20250116121216.png]]
 
-- Lab Exercise:
-	- Become root and create a directory allinone in / = mkdir /allinone
-	- Assign all rwx permissions to that directory = chmod 777 /allinone
-	- Become abdulwahab and create directory inside of /allinone = mkdir dir1
-	- Give all rwx permissions to that directory = chmod 777 dir1
-	- Create 3 files in that directory = touch a b c
-	- Open another terminal and login as another user
-	- Go to /allinone directory and delete dir1 directory = rm -rf dir1
-		- you will see the directory is deleted
-	- Now become root again and assign sticky bit permission to /allinone = chmod +t /allinone
-	- Become abdulwahab and create directory again inside of /allinone = mkdir dir1
-	- Give all rwx permissions to that directory = chmod 777 dir1
-	- Create 3 files in that directory = touch a b c
-	- Open another terminal and login as another user
-	- Go to /allinone directory and delete dir1 directory = rm -rf dir1
-		- this time it wont delete because of the sticky that we assigned to /allinone

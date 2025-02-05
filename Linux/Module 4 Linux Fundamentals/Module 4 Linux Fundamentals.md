@@ -144,7 +144,7 @@ sudo setfacl -b roger
 echo "add text" > pirateking
 ```
 ```
-echo "add text without removing whats already in the file using >>" >> pirateking
+echo "add text without removing whats already in the file using" >> pirateking
 ```
 ![[Pasted image 20250110125559.png]]
 ==`echo "add text" > pirateking` will overwrite the file==
@@ -174,6 +174,7 @@ cat < filename
 ```
 ls -et 2> filename
 ```
+the main command to copy the error is `2>`, `-et` is just used to get an error
 ![[Pasted image 20250110160134.png]]
 
 11. **Standard Output to a File (tee)**

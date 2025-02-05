@@ -78,7 +78,17 @@
 	- ![[Pasted image 20250114113132.png]]
 - Files (created account record is in three different files /etc/passwd , /etc/group , /etc/shadow)
 
-5. **The /etc/login.defs File**
+to add password
+```
+passwd username
+```
+
+to remove password
+```
+passwd -d username
+```
+
+1. **The /etc/login.defs File**
 - The chage command - per user
 	- chage (-m mindays) (-M maxdays) (-d lastday) (-I inactive) (-E expiredate) (-W warndays) user
 - File = /etc/login.defs 
@@ -90,14 +100,14 @@
 - `sudo chage -m 5 -M 90 -W 10 -I 3 username`
 ![[Pasted image 20250114141642.png]]
 
-6. **Switch Users and sudo Access**
+2. **Switch Users and sudo Access**
 - commands
 	- su - username = swtich to a username
 	- sudo = to get super user access
 	- visudo = used to safely edit the `/etc/sudoers` file. The `/etc/sudoers` file determines which users and groups have sudo privileges, allowing them to execute commands with superuser (root) privileges. (ctrl+x to exit the visudo editor)
 	- `usermod -aG sudo username` = adds the username to the group sudo, the -aG means to add the username to the group without removing it from other groups
 
-7. **Monitor Users**
+3. **Monitor Users**
 - `who` = used to display information about the users currently logged into the system.
 ![[Pasted image 20250114152715.png]]
 - `last` = displays all the details of all users logged in since day 1
@@ -109,12 +119,12 @@
 ![[Pasted image 20250114154602.png]]
 - `id username` = shows the id information of the username
 
-8. **Linux Account Authentication**
+4. **Linux Account Authentication**
 - Types of accounts
 	- Local accounts
 	- Domain/Directory accounts
 
-9. **System Utility Commands**
+5. **System Utility Commands**
 - `date`
 - `uptime`
 - `hostname` = shows hostname
@@ -123,7 +133,7 @@
 - `cal` = shows calendar
 - bc = binary calculator
 
-10. **Processes and Jobs and Scheduling**
+6. **Processes and Jobs and Scheduling**
 - Processes and Jobs
 	- Application = Service
 	- Script = script/commands e.g. adduser, whoami etc
@@ -139,7 +149,7 @@
 	- crontab
 	- at
 
-11. **systemctl command**
+7. **systemctl command**
 - systemctl command
 	- systemctl start | stop | status servicename.service (firewalld)
 		- ![[Pasted image 20250115095942.png]]
@@ -159,7 +169,7 @@
 	- `systemctl halt` = halt entire system
 	- `systemctl reboot` = reboot entire system
 
-12. **ps command**
+8. **ps command**
 - ps = process status, displays all currently running processes in the linux system
 	- ![[Pasted image 20250115102415.png]]
 	- ![[Pasted image 20250115102010.png]]
@@ -170,7 +180,7 @@
 - ps -u username = show all processes by username
 	- ![[Pasted image 20250115102550.png]]
 
-13. **top**
+9. **top**
 - top = shows the Linux processes and it provides a real-time view of the running system
 	- ![[Pasted image 20250115103657.png]]
 - top -u username = shows task/processes by user owned
@@ -181,7 +191,7 @@
 - top then M and P = to sort all linux running process by memory usage
 - ==top command refreshes information every 3 second==
 
-14. **kill Command**
+10. **kill Command**
 - kill = used to terminate processes manually
 - kill (option) (PID) = option (signal name or signal numer/ID)
 - kill -l = get a list of all signal names or signal number
@@ -193,7 +203,7 @@
 - killall = kill all processes
 - pkill = kill by process name
 
-15. **crontab command**
+11. **crontab command**
 - crontab = used to schedule task
 - crontab -e = edit the crontab
 - crontab -l = list the crontab entries
@@ -213,7 +223,7 @@
 - crontab -r = deletes the crontab entry in the same directory
 - crontab -l = shows content of crontab in the same directory
 
-16. **at command**
+12. **at command**
 - at = like crontab allows you to schedule jobs but only once
 - when command is run, it enters interactive mode and you can get out by pressing Ctrl D
 - syntax `at HH:MM PM` = schedule a job
@@ -230,7 +240,7 @@
 - `at 8:00 AM Sun` = Schedule a job to 8am on coming Sunday
 - at 10:00 AM next month = schedule a job to 10am next month
 
-17. **Additional Cron Jobs**
+13. **Additional Cron Jobs**
 - By default 4 different types of cronjobs
 	- hourly
 	- daily
@@ -249,7 +259,7 @@
 	- crontab = This refers to the crontab file or the command used to edit the crontab file. The crontab file contains the schedule and commands for individual users.
 	- cron.weekly = Scripts in this directory are executed once a week, usually on Sundays. It's useful for weekly maintenance tasks.
 
-18. **Process Management**
+14. **Process Management**
 - Background = ctrl-z, jobs and bg
 - Foreground = fg
 - Run process even after exit = nohup process & OR = nohup process > /dev/null 2>&1 &
@@ -262,7 +272,7 @@
 - List process = ps
 	- `ps -ef | grep sleep` = to search sleep process
 
-19. **System Monitoring**
+15. **System Monitoring**
 - `top` = command is a powerful utility in Linux used to display real-time information about the system’s processes, resource usage, and overall performance. It provides a dynamic, interactive view of what's happening on the system.
 - `df` = displays disk space usage information
 	- `df -h` = display disk space usage in a human-readable format.
@@ -283,7 +293,7 @@
 - cat /proc/cpuinfo = shows cpu information
 - cat /proc/meminfo = shows memory information
 
-20. **System Log Monitoring**
+16. **System Log Monitoring**
 - /var/log = all logs generated are in log directory
 	- boot = system boot information are in boot
 	- chronyd = NTP = Chrony is an implementation of the Network Time Protocol (NTP) designed to keep the system clock in sync with remote NTP servers. It is particularly useful on systems that are not always connected to the network or have variable latency, such as laptops or virtual machines
@@ -299,7 +309,7 @@
 		- ![[Pasted image 20250115163934.png]]
 	- httpsd = apache application log
 
-21. **System Maintenance Commands**
+17. **System Maintenance Commands**
 - shutdown = shutdown in a safe way. It also allows to schedule a shutdown or reboot after a specified time.
 	- shutdown (options) (time (message)
 		- Options:
@@ -320,34 +330,34 @@
 	- `shutdown -r now` is alternate command to reboot
 - halt = stops all processes and halts the system. It’s equivalent to running `shutdown -h now`
 
-22.  **Changing System Hostname**
+18.  **Changing System Hostname**
 - `hostnamectl - set-hostname newhostname` OR `vi /etc/hostname` (change hostname in the editor)
 - path /etc/hostname
 
-23. **Finding System Information**
+19. **Finding System Information**
 - `cat /etc/os-release` = displays OS information
 - `uname -a` = displays information about OS
 - `dmidecode` = shows SMBIOS (System Management BIOS) data, including hardware details such as the system manufacturer, BIOS version, serial numbers, and more.
 
-24. **System Architecture**
+20. **System Architecture**
 - Differences between a 32-bit and 64-bit CPU
 	- 32-bit CPUs: Suitable for basic computing tasks and older systems with limited RAM. use the x86 architecture
 	- 64-bit CPUs: Better for modern computing needs, supporting more RAM, improved performance, and enhanced security features. use the x86-64 (or AMD64) architecture
 - `arch` = shows if cpu is 32bit or 64bit 
 
-25. **Terminal Control Keys**
+21. **Terminal Control Keys**
 - Key combinations
 	- ctrl+u = erase everything typed on the command line
 	- ctrl+c = stop/kill a command
 	- ctrl+z = suspend a command
 	- ctrl+d = exit from an interactive program (signals end of data)
 
-26. **Terminal Commands**
+22. **Terminal Commands**
 - clear = clears screen
 - exit = exit out of shell, terminal or a user session
 - script = stores terminal activities in a log file that can be named by a user, when a name is not provided by a user, the default file name, typescript is used
 
-27. ==Recover Root Password==
+23. ==Recover Root Password==
 - Restart computer
 - Edit grub
 	- press e instead of enter to edit when selecting the OS
@@ -357,7 +367,7 @@
 - Change password
 - Reboot
 
-28. **SOS Report**
+24. **SOS Report**
 - What is SOS Report?
 	- Collect and package diagnostic and support data
 - Package name
@@ -365,7 +375,7 @@
 - Command
 	- sosreport
 
-29. Environment Variables
+25. Environment Variables
 - What are environment variables?
 	- a dynamic-named value that can affect the way running processes will behave on a computer. They are part of the environment in which a process runs
 - To view all environment variables
@@ -385,7 +395,7 @@
 	- Test='123'
 	- export TEST
 
-30. Special Permissions
+26. Special Permissions
 - All permissions on a file or directory are referred as bits
 	- -rwx rwx rwx
 		- 1st three are for Users, 2nd three for Groups and 3rd for Others

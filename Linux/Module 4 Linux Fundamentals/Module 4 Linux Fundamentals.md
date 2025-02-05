@@ -406,12 +406,15 @@ ls -l | cut -c2-4
 
 `gzip filename` = zip a file
 ![[Pasted image 20250113153007.png]]
-- gzip -d or `gunzip filename` = unzip file
+
+gzip -d or `gunzip filename` = unzip file
 ![[Pasted image 20250113153038.png]]
 7. **Truncate File Size**
 - command used to shrink or extrend size of file to specified size
-	- `truncate -s 150 filename` 
-		- reducing the size of file will remove contents of the file with it and increasing the size with truncate wont bring back the lost contents of the file
+```
+truncate -s 150 filename
+``` 
+- reducing the size of file will remove contents of the file with it and increasing the size with truncate wont bring back the lost contents of the file
 ![[Pasted image 20250113154432.png]]
 ![[Pasted image 20250113154554.png]]
 

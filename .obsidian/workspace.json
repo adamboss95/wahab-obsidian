@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Module 3 System Access and File System/Module 3 System Access and File System.md",
+                "file": "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 3 System Access and File System"
+              "title": "Module 4 Linux Fundamentals"
             }
           },
           {
@@ -210,8 +210,8 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
-    "Mhsn/Linux/Linux Administration/1. System Access & File Systems.md",
     "Linux/Module 3 System Access and File System/Module 3 System Access and File System.md",
+    "Mhsn/Linux/Linux Administration/1. System Access & File Systems.md",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Module 3 Active Directory Domain Services on Windows Server 2019.md",
     "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "Mhsn/Windows/Windows Server 2019 Adminisrtration/3. DHCP and DNS.md",

@@ -2,7 +2,7 @@
 # SOC Analyst Training
 ## Linux Training
 
-### Module 5
+## Module 5
 1. **Linux File Editor**
 - Introduction to vi
 	- vi common keys for:
@@ -22,7 +22,7 @@
 	- `sed 's/keyword/replaceWith/g' filename` = doesnt make change to the file
 	- `sed -i 's/keyword/replaceWith/g' filename` = i is used to make change in the file
 	- `sed 's/keyword//g' filename`
-	- `sed -i 's/keyword//g' filename`
+	- `sed -i 's/keyword//g' filename` = replacing with empty
 	- `sed '11!s/keyword/replaceWith/' filename` = replace the word except line 11
 ![[Pasted image 20250114092648.png]]
 ![[Pasted image 20250114092721.png]]
@@ -63,7 +63,7 @@
 4. **User Account Management**
 - Commands
 	- useradd
-		- `useradd admiral` = needs root access to create user so use `sudo` at the start or change user to root using `su -` (it doesnt create a directory in home, to create directory in home for user, use `useradd -m username`) 
+		- `useradd admiral` = needs root access to create user so use `sudo` at the start or change user to root using `su -` or `sudo su` (it doesnt create a directory in home, to create directory in home for user, use `useradd -m username`) 
 		- `useradd -g emperor -s /bin/bash -c "sea emperor" -m -d /home/emperorTeach emperorTeach` = create and add the user to the group emperor 
 	- ![[Pasted image 20250114111249.png]]
 	- groupadd

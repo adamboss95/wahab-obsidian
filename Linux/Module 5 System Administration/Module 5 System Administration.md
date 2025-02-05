@@ -109,26 +109,12 @@
 ![[Pasted image 20250114154602.png]]
 - `id username` = shows the id information of the username
 
-8. **Talking to Users**
-- `users` = shows the current logged in users
-- wall = used to broadcast a message to all users (ctrl+d to exit the wall editor)
-- `write username` = write message to a specific username
-
-9. **Linux Account Authentication**
+8. **Linux Account Authentication**
 - Types of accounts
 	- Local accounts
 	- Domain/Directory accounts
 
-10. **Difference between Active Directory, LDAP, IDM, WinBIND, OpenLDAP etc.**
-- Active Directory = Microsoft
-- IDM = An Identity Manager is a tool or system used for identity and access management (IAM)
-- WinBIND = used in Linux to communicate with Windows (Samba)
-- OpenLDAP (open source)
-- IBM Directory Server
-- JumpCloud
-- LDAP = Lightweight Directory Access Protocol
-
-11. **System Utility Commands**
+9. **System Utility Commands**
 - `date`
 - `uptime`
 - `hostname` = shows hostname
@@ -137,7 +123,7 @@
 - `cal` = shows calendar
 - bc = binary calculator
 
-12. **Processes and Jobs and Scheduling**
+10. **Processes and Jobs and Scheduling**
 - Processes and Jobs
 	- Application = Service
 	- Script = script/commands e.g. adduser, whoami etc
@@ -153,7 +139,7 @@
 	- crontab
 	- at
 
-13. **systemctl command**
+11. **systemctl command**
 - systemctl command
 	- systemctl start | stop | status servicename.service (firewalld)
 		- ![[Pasted image 20250115095942.png]]
@@ -173,7 +159,7 @@
 	- systemctl halt = halt entire system
 	- systemctl reboot = reboot entire system
 
-14. **ps command**
+12. **ps command**
 - ps = process status, displays all currently running processes in the linux system
 	- ![[Pasted image 20250115102415.png]]
 	- ![[Pasted image 20250115102010.png]]
@@ -184,7 +170,7 @@
 - ps -u username = show all processes by username
 	- ![[Pasted image 20250115102550.png]]
 
-15. **top**
+13. **top**
 - top = shows the Linux processes and it provides a real-time view of the running system
 	- ![[Pasted image 20250115103657.png]]
 - top -u username = shows task/processes by user owned
@@ -195,7 +181,7 @@
 - top then M and P = to sort all linux running process by memory usage
 - ==top command refreshes information every 3 second==
 
-16. **kill Command**
+14. **kill Command**
 - kill = used to terminate processes manually
 - kill (option) (PID) = option (signal name or signal numer/ID)
 - kill -l = get a list of all signal names or signal number
@@ -207,7 +193,7 @@
 - killall = kill all processes
 - pkill = kill by process name
 
-17. **crontab command**
+15. **crontab command**
 - crontab = used to schedule task
 - crontab -e = edit the crontab
 - crontab -l = list the crontab entries
@@ -227,7 +213,7 @@
 - crontab -r = deletes the crontab entry in the same directory
 - crontab -l = shows content of crontab in the same directory
 
-18. **at command**
+16. **at command**
 - at = like crontab allows you to schedule jobs but only once
 - when command is run, it enters interactive mode and you can get out by pressing Ctrl D
 - syntax `at HH:MM PM` = schedule a job
@@ -244,7 +230,7 @@
 - `at 8:00 AM Sun` = Schedule a job to 8am on coming Sunday
 - at 10:00 AM next month = schedule a job to 10am next month
 
-19. **Additional Cron Jobs**
+17. **Additional Cron Jobs**
 - By default 4 different types of cronjobs
 	- hourly
 	- daily
@@ -263,7 +249,7 @@
 	- crontab = This refers to the crontab file or the command used to edit the crontab file. The crontab file contains the schedule and commands for individual users.
 	- cron.weekly = Scripts in this directory are executed once a week, usually on Sundays. It's useful for weekly maintenance tasks.
 
-20. **Process Management**
+18. **Process Management**
 - Background = ctrl-z, jobs and bg
 - Foreground = fg
 - Run process even after exit = nohup process & OR = nohup process > /dev/null 2>&1 &
@@ -276,7 +262,7 @@
 - List process = ps
 	- `ps -ef | grep sleep` = to search sleep process
 
-21. **System Monitoring**
+19. **System Monitoring**
 - `top` = command is a powerful utility in Linux used to display real-time information about the system’s processes, resource usage, and overall performance. It provides a dynamic, interactive view of what's happening on the system.
 - `df` = displays disk space usage information
 	- `df -h` = display disk space usage in a human-readable format.
@@ -297,7 +283,7 @@
 - cat /proc/cpuinfo = shows cpu information
 - cat /proc/meminfo = shows memory information
 
-22. **System Log Monitoring**
+20. **System Log Monitoring**
 - /var/log = all logs generated are in log directory
 	- boot = system boot information are in boot
 	- chronyd = NTP = Chrony is an implementation of the Network Time Protocol (NTP) designed to keep the system clock in sync with remote NTP servers. It is particularly useful on systems that are not always connected to the network or have variable latency, such as laptops or virtual machines
@@ -313,7 +299,7 @@
 		- ![[Pasted image 20250115163934.png]]
 	- httpsd = apache application log
 
-23. **System Maintenance Commands**
+21. **System Maintenance Commands**
 - shutdown = shutdown in a safe way. It also allows to schedule a shutdown or reboot after a specified time.
 	- shutdown (options) (time (message)
 		- Options:
@@ -334,34 +320,34 @@
 	- `shutdown -r now` is alternate command to reboot
 - halt = stops all processes and halts the system. It’s equivalent to running `shutdown -h now`
 
-24.  **Changing System Hostname**
+22.  **Changing System Hostname**
 - `hostnamectl - set-hostname newhostname` OR `vi /etc/hostname` (change hostname in the editor)
 - path /etc/hostname
 
-25. **Finding System Information**
+23. **Finding System Information**
 - `cat /etc/os-release` = displays OS information
 - `uname -a` = displays information about OS
 - `dmidecode` = shows SMBIOS (System Management BIOS) data, including hardware details such as the system manufacturer, BIOS version, serial numbers, and more.
 
-26. **System Architecture**
+24. **System Architecture**
 - Differences between a 32-bit and 64-bit CPU
 	- 32-bit CPUs: Suitable for basic computing tasks and older systems with limited RAM. use the x86 architecture
 	- 64-bit CPUs: Better for modern computing needs, supporting more RAM, improved performance, and enhanced security features. use the x86-64 (or AMD64) architecture
 - `arch` = shows if cpu is 32bit or 64bit 
 
-27. **Terminal Control Keys**
+25. **Terminal Control Keys**
 - Key combinations
 	- ctrl+u = erase everything typed on the command line
 	- ctrl+c = stop/kill a command
 	- ctrl+z = suspend a command
 	- ctrl+d = exit from an interactive program (signals end of data)
 
-28. **Terminal Commands**
+26. **Terminal Commands**
 - clear = clears screen
 - exit = exit out of shell, terminal or a user session
 - script = stores terminal activities in a log file that can be named by a user, when a name is not provided by a user, the default file name, typescript is used
 
-29. ==Recover Root Password==
+27. ==Recover Root Password==
 - Restart computer
 - Edit grub
 	- press e instead of enter to edit when selecting the OS
@@ -371,7 +357,7 @@
 - Change password
 - Reboot
 
-30. **SOS Report**
+28. **SOS Report**
 - What is SOS Report?
 	- Collect and package diagnostic and support data
 - Package name
@@ -379,7 +365,7 @@
 - Command
 	- sosreport
 
-31. Environment Variables
+29. Environment Variables
 - What are environment variables?
 	- a dynamic-named value that can affect the way running processes will behave on a computer. They are part of the environment in which a process runs
 - To view all environment variables
@@ -399,7 +385,7 @@
 	- Test='123'
 	- export TEST
 
-32. Special Permissions
+30. Special Permissions
 - All permissions on a file or directory are referred as bits
 	- -rwx rwx rwx
 		- 1st three are for Users, 2nd three for Groups and 3rd for Others

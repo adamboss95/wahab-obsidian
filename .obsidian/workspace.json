@@ -55,15 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
+                "file": "homework/s.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 4 Managing DHCP and DNS"
+              "title": "s"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -208,15 +209,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f75a177e1221cce",
+  "active": "2591216734c6c900",
   "lastOpenFiles": [
+    "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
+    "homework/s.md",
+    "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "Linux/Module 3 System Access and File System/Module 3 System Access and File System.md",
     "Mhsn/Linux/Linux Administration/1. System Access & File Systems.md",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Module 3 Active Directory Domain Services on Windows Server 2019.md",
-    "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "Mhsn/Windows/Windows Server 2019 Adminisrtration/3. DHCP and DNS.md",
     "Windows/Module 4 Managing DHCP and DNS",
-    "homework/s.md",
     "homework/Root System Directories.md",
     "Linux/Module 1 & 2/Module 1 & 2.md",
     "Port/Ports.md",

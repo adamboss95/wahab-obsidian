@@ -4,14 +4,6 @@
 
 ### Module 5
 1. **Linux File Editor**
-- text editors available on Linux systems
-	- vi = visual editor
-	- ed = standard line editor
-	- ex = Extended line editor
-	- emacs = a full screen editor
-	- pico = Beginners Editor
-	- vim = Advance version of vi
-- vi editor is available on all Linux Distributions
 - Introduction to vi
 	- vi common keys for:
 		- i = insert

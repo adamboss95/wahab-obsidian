@@ -266,16 +266,47 @@ tail -f filename
 
 16. **cut Text Processors Commands**
 - cut
-	- cut filename = doesnt work
-	- `cut -c1 filename` = List one character
-	- `cut -c1,3,5,6 filename` = pick and choose character
-	- `cut -c1-5 filename` = list range of characters
-	- `cut -c1-6,10-15 filename` = list specific range of characters
-	- `cut -b1-3 filename` = displays 3 bytes information = list by byte size
-	- `cut -d: -f 6 /etc/passwd` = list first 6th column separated by :
-	- `cut -d: -f 6-7 /etc/passwd `= list first 6 and 7th column seperated by :
-	- `ls -l | cut -c2-4` = Only print user permissions of files/dir
-17. **awk Text Processors Commands**
+`cut filename` = doesnt work
+List one character
+```
+cut -c1 filename
+```
+
+pick and choose character
+```
+cut -c1,3,5,6 filename
+```
+
+list range of characters
+```
+cut -c1-5 filename
+```
+
+list specific range of characters
+```
+cut -c1-6,10-15 filename
+```
+
+displays 3 bytes information = list by byte size
+```
+cut -b1-3 filename
+```
+
+list first 6th column separated by :
+```
+cut -d: -f 6 /etc/passwd
+```
+
+list first 6 and 7th column seperated by :
+```
+cut -d: -f 6-7 /etc/passwd
+```
+
+Only print user permissions of files/dir
+```
+```
+
+1. **awk Text Processors Commands**
 - awk = 
 	- `awk '{print $1}' filename` = displays first column of filename
 	- `ls -l | awk '{print $1,$3}'` = list 1 and 3rd column of ls -l output
@@ -298,7 +329,7 @@ tail -f filename
 ![[Pasted image 20250113112853.png]]
 ![[Pasted image 20250113113141.png]]
 
-18. **grep/egrep Text Processors Commands**
+2. **grep/egrep Text Processors Commands**
 - grep
 	- stands for "global regular expression print." processess text line by line and prints any lines which match a specified pattern
 	- `grep` used for simpler pattern matching with basic regular expressions.
@@ -325,7 +356,7 @@ tail -f filename
 ![[Pasted image 20250113122800.png]]
 ![[Pasted image 20250113123337.png]]
 
-19. **sort/uniq Text Processors Commands**
+3. **sort/uniq Text Processors Commands**
 - Sort and uniq commands
 	- Sort Command sorts in alphabetic order
 	- Uniq command filters out the repeated or duplicate lines
@@ -345,7 +376,7 @@ tail -f filename
 ![[Pasted image 20250113141356.png]]
 ![[Pasted image 20250113141619.png]]
 
-20. **wc Text Processors Commands**
+4. **wc Text Processors Commands**
 - wc = word counter, displays line, words and bytes of a file
 	- `wc filename` = display line, words, bytes
 	- `wc -l filename` = display number of lines only
@@ -356,7 +387,7 @@ tail -f filename
 ![[Pasted image 20250113142801.png]]
 ![[Pasted image 20250113143813.png]]
 
-21. **Compare Files**
+5. **Compare Files**
 - diff = shows the differences in a unified format, highlighting lines that need to be changed.
 	- `diff admirals admirals2`
 ![[Pasted image 20250113145443.png]]
@@ -364,7 +395,7 @@ tail -f filename
 	- `cmp admirals admirals2`
 ![[Pasted image 20250113145541.png]]
 
-22. **Compress and un-Compress Files**
+6. **Compress and un-Compress Files**
 - tar 
 	- tar cvf filename . = create tar of the current directory
 	- tar xvf filename = un tar in the current directory
@@ -373,14 +404,14 @@ tail -f filename
 ![[Pasted image 20250113153007.png]]
 - gzip -d or `gunzip filename` = unzip file
 ![[Pasted image 20250113153038.png]]
-23. **Truncate File Size**
+7. **Truncate File Size**
 - command used to shrink or extrend size of file to specified size
 	- `truncate -s 150 filename` 
 		- reducing the size of file will remove contents of the file with it and increasing the size with truncate wont bring back the lost contents of the file
 ![[Pasted image 20250113154432.png]]
 ![[Pasted image 20250113154554.png]]
 
-24. **Combining and Splitting Files**
+8. **Combining and Splitting Files**
 - Multiple files can be combined into one
 - One file can be split into multiples files
 	- `cat file1 file2 file3 > file4`
@@ -388,5 +419,5 @@ tail -f filename
 ![[Pasted image 20250113155758.png]]
 ![[Pasted image 20250113155700.png]]
 
-25. **Linux vs Windows Commands**
+9. **Linux vs Windows Commands**
 - ![[Pasted image 20250113160122.png]]

@@ -155,9 +155,9 @@
 - To add a service under systemctl management:
 	- Create a unit file in /etc/systemd/system/servicename.service
 - To control system with systemctl
-	- systemctl poweroff = poweroff entire system
-	- systemctl halt = halt entire system
-	- systemctl reboot = reboot entire system
+	- `systemctl poweroff` = poweroff entire system
+	- `systemctl halt` = halt entire system
+	- `systemctl reboot` = reboot entire system
 
 12. **ps command**
 - ps = process status, displays all currently running processes in the linux system

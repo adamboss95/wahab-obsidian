@@ -63,8 +63,7 @@
               "title": "s"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,10 +208,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2591216734c6c900",
+  "active": "9f75a177e1221cce",
   "lastOpenFiles": [
-    "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "homework/s.md",
+    "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "Linux/Module 3 System Access and File System/Module 3 System Access and File System.md",
     "Mhsn/Linux/Linux Administration/1. System Access & File Systems.md",

@@ -400,10 +400,11 @@ ls -l | cut -c2-4
 
 6. **Compress and un-Compress Files**
 - tar 
-	- tar cvf filename . = create tar of the current directory
+	- tar cvf filename.tar . = create tar of the current directory
 	- tar xvf filename = un tar in the current directory
 ![[Pasted image 20250113152942.png]]
-- `gzip filename` = zip a file
+
+`gzip filename` = zip a file
 ![[Pasted image 20250113153007.png]]
 - gzip -d or `gunzip filename` = unzip file
 ![[Pasted image 20250113153038.png]]

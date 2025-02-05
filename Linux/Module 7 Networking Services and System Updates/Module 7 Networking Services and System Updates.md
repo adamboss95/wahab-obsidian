@@ -1109,6 +1109,7 @@ SSH: 
 - Its service daemon is sshd 
 
 - SSH port # 22 
+	- **To change port or other ssh settings** Edit your /etc/ssh/sshd_config file and add the following line:
 
 ![[Pasted image 20250124152238.png]]
 

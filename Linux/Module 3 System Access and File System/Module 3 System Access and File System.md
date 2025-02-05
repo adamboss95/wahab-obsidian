@@ -157,7 +157,7 @@ vi filename
 - ![[Pasted image 20250109114504.png]]
 - mkdir to create directory
 ```
-mkdir dirName
+mkdir directoryName
 ```
 - ![[Pasted image 20250109114838.png]]
 

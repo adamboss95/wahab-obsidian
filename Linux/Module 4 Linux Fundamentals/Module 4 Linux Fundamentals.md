@@ -292,33 +292,36 @@ displays 3 bytes information = list by byte size
 cut -b1-3 filename
 ```
 
-list first 6th column separated by :
+list 6th column separated by :
 ```
 cut -d: -f 6 /etc/passwd
 ```
 
-list first 6 and 7th column seperated by :
+list  6 and 7th column seperated by :
 ```
 cut -d: -f 6-7 /etc/passwd
 ```
 
 Only print user permissions of files/dir
 ```
+ls -l | cut -c2-4
 ```
 
 1. **awk Text Processors Commands**
 - awk = 
-	- `awk '{print $1}' filename` = displays first column of filename
-	- `ls -l | awk '{print $1,$3}'` = list 1 and 3rd column of ls -l output
-	- `ls -l | awk '{print $NF}'` = last field of output
-	- `awk '/monkey/ {print}' filename` = searches word luffy in file and displays the line where luffy is
-	- `awk -F: '{print $1}' /etc/passwd` = output only 1st field/column of /etc/passwd
-	- `echo "Hello Garp" | awk '{$2="Adam"; print $0}'` = replace words 2nd column/field words
-	- `cat filename | awk '{$2="pirate"; print $0}' ` = replace words field words
-	- `awk  'length($0) > 10' filename`= get lines that have more than 10 byte size
-	- `ls -l | awk '{if($9 == strawhats) print $0;}'` = get the field matching strawhats in current directory
-	- `ls -l | awk '{print NF}'` = displays number of fields
+- `awk '{print $1}' filename` = displays first column of filename
 ![[Pasted image 20250113104752.png]]
+
+- `ls -l | awk '{print $1,$3}'` = list 1 and 3rd column of ls -l output
+- `ls -l | awk '{print $NF}'` = last field of output
+- `awk '/monkey/ {print}' filename` = searches word luffy in file and displays the line where luffy is
+- `awk -F: '{print $1}' /etc/passwd` = output only 1st field/column of /etc/passwd
+- `echo "Hello Garp" | awk '{$2="Adam"; print $0}'` = replace words 2nd column/field words
+- `cat filename | awk '{$2="pirate"; print $0}' ` = replace words field words
+- `awk  'length($0) > 10' filename`= get lines that have more than 10 byte size
+- `ls -l | awk '{if($9 == strawhats) print $0;}'` = get the field matching strawhats in current directory
+- `ls -l | awk '{print NF}'` = displays number of fields
+
 ![[Pasted image 20250113105017.png]]
 ![[Pasted image 20250113105731.png]]
 ![[Pasted image 20250113105958.png]]
@@ -331,7 +334,7 @@ Only print user permissions of files/dir
 
 2. **grep/egrep Text Processors Commands**
 - grep
-	- stands for "global regular expression print." processess text line by line and prints any lines which match a specified pattern
+	- stands for "global regular expression print." processes text line by line and prints any lines which match a specified pattern
 	- `grep` used for simpler pattern matching with basic regular expressions.
 	- `grep monkey strawhats` = searches and displays the line having monkey in it in the file strawhats
 	- `grep abdulwahab /etc/passwd` = displays the line that has abdulwahab in it

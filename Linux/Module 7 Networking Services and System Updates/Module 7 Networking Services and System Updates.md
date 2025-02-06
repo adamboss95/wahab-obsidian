@@ -68,10 +68,6 @@ ping [www.google.com]
 
 - You can get you ethtool enp by running ifconfig 
 
-- After running the command ethtool enp2s0 there are few things you need for network administrator  
-	1. Link mode: 1000baseT/Full 
-	2. Speed: 1000Mb/s 
-	3. Duplex: Full
 
 
 ### NIC Bonding or Port Bonding

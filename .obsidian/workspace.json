@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Module 1 & 2/Module 1 & 2.md",
+                "file": "homework/s.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 1 & 2"
+              "title": "s"
             }
           }
         ]
@@ -168,6 +168,7 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "Linux/Module 1 & 2/Module 1 & 2.md",
     "homework/s.md",
     "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "Linux/Module 5 System Administration/Module 5 System Administration.md",
@@ -185,7 +186,6 @@
     "homework/DMZ.md",
     "homework/Root System Directories.md",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Module 3 Active Directory Domain Services on Windows Server 2019.md",
-    "Linux/Module 1 & 2/Module 1 & 2.md",
     "Mhsn/Linux/Linux Administration/1. System Access & File Systems.md",
     "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "Mhsn/Windows/Windows Server 2019 Adminisrtration/3. DHCP and DNS.md",

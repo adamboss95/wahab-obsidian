@@ -503,7 +503,7 @@ Here are some of the key functions of the rpm command:
 - `yum history undo <id>`
 
 
-### SH and TELNET 
+### SSH and TELNET 
 - Telnet = Un-secured connection between computers 
 - SSH = Secured 
 - Two type of packages for most of the services 
@@ -826,78 +826,6 @@ Please note: 
 	
 		timedatectl set-ntp true.
 
-
-### Sendmail
-
-Purpose? 
-
-Send and receive emails 
-
-- Files 
-
-	/etc/mail/sendmail.mc [medium that receives and deliver mails] 
-
-- vi sendmail.mc 
-    
-- Come to line below where written smart host 
-    
-- Hostname.domainname.com 
-    
-- Start service systemctl restart sendmail 
-    
-
-	/etc/mail/sendmail.cf 
-	
-	/etc/mail 
-
-- Service 
-
-systemctl restart sendmail 
-
-- Command 
-
-	1. mail –s “subject line” [email@mydomain.com]
-	    
-	2. type the message 
-	    
-	3. Crtl+D will get you out of mail program 
-    
-
-- Install packages: 
-    
-
-1. Apt install sendmail 
-    
-2. Apt install sendmail-cf 
-    
-
-- Sendmail is a program in Linux operating systems that allows 
-
-	systems administrator to send email from the Linux system 
-
-- It uses SMTP (Simple Mail Transfer Protocol) 
-
-- SMTP port = 25 
-
-- It attempts to deliver the mail to the intended recipient immediately and, if the recipient is not present, it queues messages for later Delivery. 
-
-Sendmail installation and configuration 
-
-`su –` (Login as root) 
-
-`rpm –qa | grep sendmail` (verify if it is already installed) 
-
-`dnf install sendmail sendmail-cf` 
-
-`vi /etc/mail/sendmail.mc` 
-
-`systemctl start sendmail` 
-
-`systemctl enable sendmail` 
-
-`systemctl stop firewalld` 
-
-`systemctl disable firewalld`
 
 ### Web Server (httpd) 
     

@@ -258,7 +258,7 @@ tail -c 1000 filename
 tail -f filename
 ```
 
-15. **Filters / Text Processors Commands**
+##### 15. **Filters / Text Processors Commands**
 - cut
 - awk
 - grep and egrep
@@ -392,7 +392,7 @@ ls -l | cut -c2-4
 ![[Pasted image 20250113142801.png]]
 ![[Pasted image 20250113143813.png]]
 
-5. **Compare Files**
+##### 5. **Compare Files**
 - diff = shows the differences in a unified format, highlighting lines that need to be changed.
 	- `diff admirals admirals2`
 ![[Pasted image 20250113145443.png]]
@@ -400,7 +400,7 @@ ls -l | cut -c2-4
 	- `cmp admirals admirals2`
 ![[Pasted image 20250113145541.png]]
 
-6. **Compress and un-Compress Files**
+##### 6. **Compress and un-Compress Files**
 - tar 
 	- tar cvf filename.tar . = create tar of the current directory
 	- tar xvf filename = un tar in the current directory

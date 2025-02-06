@@ -259,6 +259,7 @@ Use following command to view bond interface settings like bonding mode & slave 
 - Example of Windows brower Google 
     
 - Linux = curl – it is used for url 
+	A command-line tool to transfer data to or from a server.
     
 - Linux = ping – it is used to check for server is up or not 
     

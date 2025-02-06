@@ -195,9 +195,9 @@ done
 12. Aliases
 - Syntax for creating alias
 - alias nick = "command"
-	- e.g alias ls="ls -la" , whenever i run ls it will give the output of the ls -la  
+	- e.g alias listfiles="ls -la" , whenever i run ls it will give the output of the ls -la  
 - we can create alias for multiple commands too
-	- `alias ls="ls -al"`
+	- `alias listfiles="ls -al"`
 	- `alias pl=pwd: ls"`
 	- `alias tell="whoami; hostname; pwd"`
 	- `alias dir="ls -l | grep ^d"`

@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tcpdump",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,12 +167,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f75a177e1221cce",
+  "active": "734f4892caaa4d54",
   "lastOpenFiles": [
     "Linux/Module 5 System Administration/Module 5 System Administration.md",
-    "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
-    "Linux/Module 7 Networking Services and System Updates/Module 7 Networking Services and System Updates.md",
+    "Linux/Terminal Commands/Commands by alphabetic order.md",
     "Linux/Module 6 Shell Scripting/Module 6 Shell Scripting.md",
+    "Linux/Module 7 Networking Services and System Updates/Module 7 Networking Services and System Updates.md",
+    "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "Linux/VM settings/Host Only Adapter.md",
     "Port/Ports.md",
     "Linux/Module 5 System Administration/Homework/Homework.md",

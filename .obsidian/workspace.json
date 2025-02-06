@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Module 6 Shell Scripting/Module 6 Shell Scripting.md",
+                "file": "Linux/Module 8 Disk Management and Run Levels/Module 8 Disk Management and Run Levels.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 6 Shell Scripting"
+              "title": "Module 8 Disk Management and Run Levels"
             }
           },
           {
@@ -210,6 +210,7 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "Linux/Module 6 Shell Scripting/Module 6 Shell Scripting.md",
     "Linux/Module 5 System Administration/Module 5 System Administration.md",
     "Linux/Module 5 System Administration/Homework/Homework.md",
     "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",

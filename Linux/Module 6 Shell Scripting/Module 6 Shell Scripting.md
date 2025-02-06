@@ -213,10 +213,10 @@ done
 13. Creating User or Global Aliases
 - User = Applies only to a specific user profile
 	- to set aliases for specific user, need to edit the file with vi or vim and add the alias there
-		- User = ==/home/user/.bashrc== is where user alias file is located
+		- ==User =  /home/user/.bashrc== is where user alias file is located
 - Global = Applies to everyone who has account on the system
 - to set aliases for everyone on the system, need to edit the file with vi or vim and add the alias there
-	- Global = ==/etc/bashrc== is where global alias file is located
+	- ==Global = /etc/bashrc== is where global alias file is located
 
 14. Shell History
 - All commands are recorded in the history

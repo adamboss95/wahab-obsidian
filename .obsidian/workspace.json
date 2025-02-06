@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mhsn/Linux/Linux Administration/3. System Administration.md",
+                "file": "Linux/Module 6 Shell Scripting/Module 6 Shell Scripting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. System Administration"
+              "title": "Module 6 Shell Scripting"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sudoer",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,13 +168,14 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "Mhsn/Linux/Linux Administration/3. System Administration.md",
+    "Mhsn/Linux/Linux Administration/2. Linux Fundamentals.md",
     "Linux/Module 3 System Access and File System/Module 3 System Access and File System.md",
     "Linux/Module 7 Networking Services and System Updates/Module 7 Networking Services and System Updates.md",
     "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "Linux/Module 6 Shell Scripting/Module 6 Shell Scripting.md",
     "Linux/Module 5 System Administration/Module 5 System Administration.md",
     "Mhsn/Windows/TCM Windows Privilege Escalation/3. Initial Enumeration.md",
-    "Mhsn/Linux/Linux Administration/3. System Administration.md",
     "homework/Untitled.md",
     "homework/DMZ.md",
     "homework/Root System Directories.md",

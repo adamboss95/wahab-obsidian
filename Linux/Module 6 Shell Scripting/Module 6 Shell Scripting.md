@@ -23,7 +23,7 @@
 - KDE = GUI environment
 - sh = CLI shell
 - bash = stands for born again shell
-- csh and tcsh
+- csh (cshell) and tcsh (tennex cshell)
 - ksh = korn shell
 
 4. Shell Scripting

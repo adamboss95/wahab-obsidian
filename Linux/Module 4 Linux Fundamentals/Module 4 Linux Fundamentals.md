@@ -229,6 +229,7 @@ ls -ltr | tail -1
 ```
 more filename
 ```
+
 - less = advanced version, Bidirectional navigation (forward and backward).
 	- **Scroll Down**: Press `Spacebar` or `Page Down`.
 	- **Scroll Up**: Press `b` or `Page Up`.
@@ -237,6 +238,7 @@ more filename
 ```
 less filename
 ```
+
 - head = shows the beginning of a file.
 	- `head -5 filename` Displays the first 5 lines of `filename`
 	- `head -c 1000 filename` Displays the first 1000 bytes of `filename`.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Module 5 System Administration/Module 5 System Administration.md",
+                "file": "Linux/Module 6 Shell Scripting/Module 6 Shell Scripting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 5 System Administration"
+              "title": "Module 6 Shell Scripting"
             }
           },
           {
@@ -210,8 +210,8 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
-    "Linux/Module 5 System Administration/Homework/Homework.md",
     "Linux/Module 5 System Administration/Module 5 System Administration.md",
+    "Linux/Module 5 System Administration/Homework/Homework.md",
     "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "Mhsn/Linux/Linux Administration/1. System Access & File Systems.md",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Module 3 Active Directory Domain Services on Windows Server 2019.md",

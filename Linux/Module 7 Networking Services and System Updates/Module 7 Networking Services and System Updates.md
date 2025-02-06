@@ -332,7 +332,7 @@ scp jack wahab@192.168.56.102:/home/wahab 
 
 
 ### rsync – Remote Synchronization 
-- It is same as SCP but it works in a way that suppose 1 file is transfer it's of 2 gig and again its transfer this time file is 4 gig so the one 2 gig updated file data will be transferred. 
+- It is same as SCP but it works in a way that suppose 1 file transfers it's of 2 gig and again it transfers this time file is 4 gig so the one 2 gig updated file data will be transferred. 
     
 - rsync is a utility for efficiently transferring and synchronizing files within the same remote computer by comparing the modification times and size of files. 
     
@@ -406,7 +406,7 @@ scp jack wahab@192.168.56.102:/home/wahab 
 	    
 	8. mkdir localrepo 
 	    
-	9. cd /run/media/username[ruhabqureshi] 
+	9. cd /run/media/username[wahab] 
 	    
 	10. In ISO image there will be spaces and to fill it run command 
 	    
@@ -422,7 +422,7 @@ scp jack wahab@192.168.56.102:/home/wahab 
 	    
 	16. df –h [to see detail space available] 
 	    
-	17. cp –rv /run/media/ruhabqureshi/filename [copy every rpm] 
+	17. cp –rv /run/media/wahab/filename [copy every rpm] 
 	    
 	18. rm –rf /etc/yum.repos.d/* [remove everything and make sure you created a snapshot] 
 	    

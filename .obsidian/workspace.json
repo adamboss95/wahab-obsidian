@@ -35,8 +35,7 @@
               "title": "Module 7 Networking Services and System Updates"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,8 +180,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a0a941deed58a3e",
+  "active": "beca1bfd8aee18bb",
   "lastOpenFiles": [
+    "Linux/Module 7 Networking Services and System Updates/Module 7 Networking Services and System Updates.md",
     "Linux/VM settings/Host Only Adapter.md",
     "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "Linux/Module 5 System Administration/Homework/Homework.md",
@@ -191,7 +190,6 @@
     "Mhsn/Linux/Linux Administration/3. System Administration.md",
     "Mhsn/Linux/Linux Administration/2. Linux Fundamentals.md",
     "Linux/Module 3 System Access and File System/Module 3 System Access and File System.md",
-    "Linux/Module 7 Networking Services and System Updates/Module 7 Networking Services and System Updates.md",
     "Linux/Module 5 System Administration/Module 5 System Administration.md",
     "Mhsn/Windows/TCM Windows Privilege Escalation/3. Initial Enumeration.md",
     "homework/Untitled.md",

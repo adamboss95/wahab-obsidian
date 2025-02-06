@@ -238,8 +238,8 @@ more filename
 less filename
 ```
 - head = shows the beginning of a file.
-	- `head -5 filename` Displays the last 5 lines of `filename`
-	- `head -c 1000 filename` Displays the last 1000 bytes of `filename`.
+	- `head -5 filename` Displays the first 5 lines of `filename`
+	- `head -c 1000 filename` Displays the first 1000 bytes of `filename`.
 	- `head -n 10 filename` displays first 10lines
 - tail = shows the end of a file.
 	- `tail -5 filename` Displays the last 5 lines of `filename`

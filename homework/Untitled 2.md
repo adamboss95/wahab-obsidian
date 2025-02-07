@@ -46,7 +46,7 @@ echo "results saved to $outputlogs"
 - Block an IP address (e.g., 192.168.1.100) with ufw if it appears in failed-logins.txt.
 
 
-
+we create and edit file blockip
 ```
 ipAddress="192.168.1.100"
 

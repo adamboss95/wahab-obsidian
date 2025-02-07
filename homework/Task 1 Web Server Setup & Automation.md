@@ -45,8 +45,6 @@ server {
 
     root /var/www/lab-site;
     index index.html;
-
-
 }
 ```
 

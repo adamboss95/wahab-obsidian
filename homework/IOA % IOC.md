@@ -8,4 +8,4 @@
 | Credential exploitation => after credential theft, next step is exploitation of the network or system.              | Vulnerability Exploitation |
 | Lateral Movement => attacker moving lateraly, trying to exploit the credentials stolen to move to different segment | Malware Injection          |
 | c2 communications                                                                                                   | Cyber Threat Signatures    |
-| Data Exfiltration                                                                                                   |                            |
+| Data Exfiltration                                                                                                   | Static                     |

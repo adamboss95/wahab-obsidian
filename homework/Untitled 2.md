@@ -16,7 +16,6 @@ tcpdump -r capture.pcap
 
 
 - Install iftop to monitor real-time bandwidth usage.
-
 ```
 sudo apt install iftop
 ```

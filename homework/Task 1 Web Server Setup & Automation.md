@@ -61,7 +61,7 @@ creating a soft link
 sudo ln -s /etc/nginx/sites-available/lab-site /etc/nginx/sites-enabled/
 
 
-
+- Write a script (deploy.sh) to automate copying files from /home/user/web-files to /var/www/lab-site and reload Nginx
 
 
 ```
@@ -78,5 +78,22 @@ sudo cp -r "$sourceDir"/* "$destinationDir"
 sudo systemctl reload nginx
 
 
-echo "Files copied from $sourceDir to $destinationDir and Nginx is reloaded"
+echo "Successfully Files copied from $sourceDir to $destinationDir and Nginx is reloaded"
+```
+
+assigning permission
+```
+chmod a+x deploy.sh
+```
+
+
+- Use cron to run the script every day at 2 AM.
+
+```
+crontab -e
+```
+
+add these lines inside crontab
+```
+0 2 * * * /home/abdulwahab/deploy.sh
 ```

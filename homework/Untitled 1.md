@@ -15,7 +15,7 @@ sudo nano /etc/nginx/sites-available/lab-site
 ```
 
 Add the following configuration to the file:
-
+```
 server {
     listen 8080;
     server_name localhost;
@@ -23,8 +23,9 @@ server {
     root /var/www/lab-site;
     index index.html;
 
-    location / {
-        try_files $uri $uri/ =404;
-    }
-}
 
+}
+```
+
+creating a soft link 
+sudo ln -s /etc/nginx/sites-available/lab-site /etc/nginx/sites-enabled/

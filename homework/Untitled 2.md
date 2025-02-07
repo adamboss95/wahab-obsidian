@@ -1,66 +1,34 @@
-
-User Management & Security Hardening  
-Objective: Secure user accounts and audit system permissions.  
+Network Monitoring & Log Analysis  
+Objective: Monitor network traffic and analyze logs for suspicious activity.  
 Tasks:
 
-- Create two users: dev1 and dev2 with home directories
+- Use tcpdump to capture 100 packets on interface eth0 and save to capture.pcap
 
 ```
-sudo adduser dev1
+sudo tcpdump -i eno1 -c 100 -w capture.pcap
 ```
 
+to verify
 ```
-sudo adduser dev2
-```
-
-to verify if users are created
-```
-cat /etc/passwd
-```
-
-- Force both users to reset passwords on first login.
-
-```
-sudo passwd --expire dev1
-```
-
-```
-sudo passwd --expire dev2
+tcpdump -r capture.pcap
 ```
 
 
-- Create a group developers and add both users to it.
+
+- Install iftop to monitor real-time bandwidth usage.
 
 ```
-sudo addgroup developers
-```
-
-```
-sudo usermod developers dev1
-```
-
-```
-sudo usermod developers dev1
-```
-
-to verify this
-```
-cat /etc/group
+sudo apt install iftop
 ```
 
 
-- Restrict SSH access to members of the developers group.
+
+- Write a script (scan-logs.sh) to search /var/log/auth.log for "Failed password" attempts and save results to failed-logins.txt.
 
 ```
-sudo vim /etc/ssh/sshd_config
+vim scan-logs.sh
 ```
 
-add this line in the editor "AllowGroups developers" > save exit
+add these lines for configuration
 
-
-
-```
-sudo find / -perm /6000 -type f > suid-report.txt
-```
-
-
+logfiles1

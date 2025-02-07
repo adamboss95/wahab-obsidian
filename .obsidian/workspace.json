@@ -168,8 +168,10 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
-    "homework/Untitled 1.md",
+    "homework/Untitled 3.md",
     "homework/Untitled 2.md",
+    "homework/Untitled 1.md",
+    "homework/Untitled.md",
     "extra/Mhsn/Linux/Linux Administration/3. System Administration.md",
     "extra",
     "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
@@ -211,8 +213,6 @@
     "extra/sa",
     "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/8. Managing Storage Area Networks(SAN) and Failover Clustering..md",
     "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/4. Managing File Servers and Storage.md",
-    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/3. DHCP and DNS.md",
-    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/2. Active Directory Domain Services.md",
-    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/12.Performance Monitoring.md"
+    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/3. DHCP and DNS.md"
   ]
 }

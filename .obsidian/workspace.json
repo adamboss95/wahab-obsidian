@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -168,13 +168,14 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "homework/Untitled 1.md",
+    "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "homework/s.md",
     "windows sa/Module - 3.md",
     "windows sa/Module  1- 2.md",
     "windows sa",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Images/Pasted image 20250130145104.png",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Images/Pasted image 20250130145025.png",
-    "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Images",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Module 3 Active Directory Domain Services on Windows Server 2019.md",
     "Windows/Module 2/Module 2 Windows Server Introduction.md",
@@ -212,7 +213,6 @@
     "Mhsn/Windows/Windows Server 2019 Adminisrtration/2. Active Directory Domain Services.md",
     "Mhsn/Windows/Windows Server 2019 Adminisrtration/12.Performance Monitoring.md",
     "Mhsn/Windows/Windows Server 2019 Adminisrtration/11.Implementing a Virtual Private Network.md",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/10.Implementing WSUS (Windows Software Update Service).md",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/1. Window Server Introduction.md"
+    "Mhsn/Windows/Windows Server 2019 Adminisrtration/10.Implementing WSUS (Windows Software Update Service).md"
   ]
 }

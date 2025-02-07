@@ -1,4 +1,11 @@
-### 3. Configure Nginx to Serve the Site on Port 8080
+
+
+
+
+
+
+
+-  Configure Nginx to Serve the Site on Port 8080
 
 Now, configure Nginx to serve the site from `/var/www/lab-site` on port 8080. Create a new configuration file for your site.
 

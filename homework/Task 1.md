@@ -1,8 +1,27 @@
 
 
+Web Server Setup & Automation  
+Objective: Set up a Nginx web server with automated deployment of a static website.  
+Tasks:
 
 
+- Install Nginx and ensure it starts on boot.
+```
+sudo apt install nginx
+```
 
+- Create a directory /var/www/lab-site and add a sample index.html with the text "Welcome to Intern Lab".
+```
+cd /var/www/
+```
+
+```
+mkdir index.html
+```
+
+```
+
+```
 
 
 -  Configure Nginx to Serve the Site on Port 8080

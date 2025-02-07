@@ -59,3 +59,24 @@ server {
 
 creating a soft link 
 sudo ln -s /etc/nginx/sites-available/lab-site /etc/nginx/sites-enabled/
+
+
+
+
+
+```
+#!/bin/bash
+
+
+sourceDir="/home/user/web-files"
+destinationDir="/var/www/lab-site"
+
+
+sudo cp -r "$sourceDir"/* "$destinationDir"
+
+
+sudo systemctl reload nginx
+
+
+echo "Files copied from $sourceDir to $destinationDir and Nginx is reloaded"
+```

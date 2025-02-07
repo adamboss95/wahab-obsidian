@@ -49,6 +49,18 @@ cat /etc/group
 ```
 
 
+- Restrict SSH access to members of the developers group.
+
 ```
-sudo find / -perm -4000 -type > suid-report.txt
+sudo vim /etc/ssh/sshd_config
 ```
+
+add this line in the editor "AllowGroups developers" > save exit
+
+
+
+```
+sudo find / -perm /6000 -type f > suid-report.txt
+```
+
+

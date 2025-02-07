@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mhsn/Linux/Linux Administration/3. System Administration.md",
+                "file": "extra/Mhsn/Linux/Linux Administration/3. System Administration.md",
                 "mode": "source",
                 "source": false
               },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cronjob",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,14 +166,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f75a177e1221cce",
+  "active": "beca1bfd8aee18bb",
   "lastOpenFiles": [
+    "extra",
     "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "homework/Untitled 1.md",
     "homework/s.md",
-    "windows sa/Module - 3.md",
-    "windows sa/Module  1- 2.md",
-    "windows sa",
+    "extra/windows sa/Module - 3.md",
+    "extra/windows sa/Module  1- 2.md",
+    "extra/windows sa",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Images/Pasted image 20250130145104.png",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Images/Pasted image 20250130145025.png",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019/Images",
@@ -185,35 +185,34 @@
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019",
     "Windows/Module 2",
     "Windows",
-    "sa/1st month/Module-7.md",
-    "sa/1st month/Module-7 (5).md",
-    "sa/1st month/Module-7 (4).md",
-    "sa/1st month/Module-7 (3).md",
-    "sa/1st month/Module-7 (2).md",
-    "sa/1st month/Module-6.md",
-    "sa/1st month/Module-5.md",
-    "sa/1st month/Module-5 (part 3).md",
-    "sa/1st month/Module-5 (part 2).md",
-    "sa/1st month/Module-4.md",
-    "sa/1st month/Module -3.md",
-    "sa/Pasted image 20250124170345.png",
-    "sa/Pasted image 20250121172927.png",
-    "sa/Pasted image 20250121172847.png",
-    "sa/Pasted image 20250116142127(3).png",
-    "sa/Pasted image 20250116142100(1).png",
-    "sa/Pasted image 20250116140141(1).png",
-    "sa/Pasted image 20250116140029(1).png",
-    "sa/Pasted image 20250115173934.png",
-    "sa/Imp commands.md",
-    "sa/1st month",
-    "sa",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/Images",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/8. Managing Storage Area Networks(SAN) and Failover Clustering..md",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/4. Managing File Servers and Storage.md",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/3. DHCP and DNS.md",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/2. Active Directory Domain Services.md",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/12.Performance Monitoring.md",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/11.Implementing a Virtual Private Network.md",
-    "Mhsn/Windows/Windows Server 2019 Adminisrtration/10.Implementing WSUS (Windows Software Update Service).md"
+    "extra/sa/1st month/Module-7.md",
+    "extra/sa/1st month/Module-7 (5).md",
+    "extra/sa/1st month/Module-7 (4).md",
+    "extra/sa/1st month/Module-7 (3).md",
+    "extra/sa/1st month/Module-7 (2).md",
+    "extra/sa/1st month/Module-6.md",
+    "extra/sa/1st month/Module-5.md",
+    "extra/sa/1st month/Module-5 (part 3).md",
+    "extra/sa/1st month/Module-5 (part 2).md",
+    "extra/sa/1st month/Module-4.md",
+    "extra/sa/1st month/Module -3.md",
+    "extra/sa/Pasted image 20250124170345.png",
+    "extra/sa/Pasted image 20250121172927.png",
+    "extra/sa/Pasted image 20250121172847.png",
+    "extra/sa/Pasted image 20250116142127(3).png",
+    "extra/sa/Pasted image 20250116142100(1).png",
+    "extra/sa/Pasted image 20250116140141(1).png",
+    "extra/sa/Pasted image 20250116140029(1).png",
+    "extra/sa/Pasted image 20250115173934.png",
+    "extra/sa/Imp commands.md",
+    "extra/sa/1st month",
+    "extra/sa",
+    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/Images",
+    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/8. Managing Storage Area Networks(SAN) and Failover Clustering..md",
+    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/4. Managing File Servers and Storage.md",
+    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/3. DHCP and DNS.md",
+    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/2. Active Directory Domain Services.md",
+    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/12.Performance Monitoring.md",
+    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/11.Implementing a Virtual Private Network.md"
   ]
 }

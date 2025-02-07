@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "extra/Mhsn/Linux/Linux Administration/3. System Administration.md",
+                "file": "homework/Untitled 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. System Administration"
+              "title": "Untitled 2"
             }
           }
         ]
@@ -166,11 +166,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "beca1bfd8aee18bb",
+  "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "homework/Untitled 1.md",
+    "homework/Untitled 2.md",
+    "extra/Mhsn/Linux/Linux Administration/3. System Administration.md",
     "extra",
     "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
-    "homework/Untitled 1.md",
     "homework/s.md",
     "extra/windows sa/Module - 3.md",
     "extra/windows sa/Module  1- 2.md",
@@ -207,12 +209,10 @@
     "extra/sa/Imp commands.md",
     "extra/sa/1st month",
     "extra/sa",
-    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/Images",
     "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/8. Managing Storage Area Networks(SAN) and Failover Clustering..md",
     "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/4. Managing File Servers and Storage.md",
     "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/3. DHCP and DNS.md",
     "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/2. Active Directory Domain Services.md",
-    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/12.Performance Monitoring.md",
-    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/11.Implementing a Virtual Private Network.md"
+    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/12.Performance Monitoring.md"
   ]
 }

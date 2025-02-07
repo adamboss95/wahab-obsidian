@@ -31,4 +31,10 @@ vim scan-logs.sh
 
 add these lines for configuration
 
-logfiles1
+#!/bin/bash
+logfiles="/var/log/auth.log"
+outputlogs="failed-logins.txt"
+
+grep "Failed password" $logfiles > $outputlogs
+
+echo "results saved to $outputlogs"

@@ -25,6 +25,15 @@ mkdir index.html
 touch index.html
 ```
 
+edit the file index.html using vim
+```
+vim index.html
+```
+
+add these lines in the editor
+```
+welcome to intern lab
+```
 
 
 

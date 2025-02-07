@@ -30,7 +30,7 @@ vim scan-logs.sh
 ```
 
 add these lines for configuration:
-
+```
 #!/bin/bash
 logfiles="/var/log/auth.log"
 outputlogs="failed-logins.txt"
@@ -38,6 +38,25 @@ outputlogs="failed-logins.txt"
 grep "Failed password" $logfiles > $outputlogs
 
 echo "results saved to $outputlogs"
+```
 
 
+
+
+- Block an IP address (e.g., 192.168.1.100) with ufw if it appears in failed-logins.txt.
+
+
+
+```
+ipAddress="192.168.1.100"
+
+logfilenew="failed-logins.txt"
+
+if grep -q "$ipAddress" "$logfilenew"; then
+    sudo ufw deny from "$ipAddress" to any
+    echo "IP address $ipAddress has been blocked."
+else
+    echo "IP address $ipAddress not found in $logfilenew."
+fi
+```
 

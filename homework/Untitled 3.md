@@ -49,7 +49,7 @@ cat /etc/group
 ```
 
 
-- Restrict SSH access to members of the developers group.
+- Restrict SSH access to members of the developers group. (dont forget to delete the lines added in the editor)
 
 ```
 sudo vim /etc/ssh/sshd_config

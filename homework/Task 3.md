@@ -58,6 +58,16 @@ sudo vim /etc/ssh/sshd_config
 add this line in the editor **AllowGroups developers** > save exit
 
 
+> [!NOTE]
+> Allow SSH to only members of the developers group
+
+
+Restart SSH
+```
+systemctl restart ssh
+```
+
+
 - Find all files with SUID/SGID permissions and document them in suid-report.txt.
 
 ```

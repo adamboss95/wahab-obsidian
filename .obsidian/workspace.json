@@ -35,7 +35,8 @@
               "title": "Module 4 Managing DHCP and DNS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,20 +181,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f75a177e1221cce",
+  "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
+    "extra/Mhsn/Linux/Linux Administration/3. System Administration.md",
+    "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
+    "homework/Untitled 2.md",
     "homework/Untitled 3.md",
     "Linux/Module 6 Shell Scripting/Module 6 Shell Scripting.md",
     "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "extra/Mhsn/Linux/Linux Administration/4. Shell Scripting.md",
     "extra/Mhsn/Linux/Linux Administration/2. Linux Fundamentals.md",
-    "homework/Untitled 2.md",
     "homework/Task 1 Web Server Setup & Automation.md",
-    "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "homework/IOA % IOC.md",
     "homework/Untitled.md",
     "extra/sa/1st month/Module-7.md",
-    "extra/Mhsn/Linux/Linux Administration/3. System Administration.md",
     "extra",
     "homework/s.md",
     "extra/windows sa/Module - 3.md",

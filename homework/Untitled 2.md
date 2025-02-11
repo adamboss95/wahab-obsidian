@@ -68,4 +68,11 @@ done < "$mal_ip"
 ```
 
 
+Schedule the script to run hourly.
+
 crontab -e
+
+```
+0 * * * * /home/abdulwahab/block-ip.sh
+0 * * * * /home/abdulwahab/scan-logs.sh
+```

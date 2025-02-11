@@ -36,8 +36,7 @@
               "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "homework/Untitled.md",
+                "file": "Windows/5. Managing File Servers and Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for 5. Managing File Servers and Storage"
             }
           },
           {
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "homework/Untitled.md",
+                "file": "Windows/5. Managing File Servers and Storage.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of 5. Managing File Servers and Storage"
             }
           }
         ],
@@ -184,11 +183,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf7b5272bdc53b11",
+  "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "homework/Untitled.md",
     "Windows/4. Managing DHCP and DNS.md",
     "Windows/5. Managing File Servers and Storage.md",
-    "homework/Untitled.md",
     "homework/Task 3.md",
     "homework/s.md",
     "Windows/2. Window Server Introduction.md",

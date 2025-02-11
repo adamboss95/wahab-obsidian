@@ -110,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "homework/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -156,20 +157,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "homework/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,6 +186,7 @@
   },
   "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
+    "Windows/4. Managing DHCP and DNS.md",
     "Windows/5. Managing File Servers and Storage.md",
     "homework/Untitled.md",
     "homework/Task 3.md",
@@ -201,7 +204,6 @@
     "Windows/Images/DNS Forwarding.png",
     "Windows/Images/DHCP Process.png",
     "Windows/Images/DHCP Practical Verification.png",
-    "Windows/4. Managing DHCP and DNS.md",
     "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
     "README.md",
     "homework/Task 2.md",

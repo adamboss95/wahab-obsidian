@@ -12,13 +12,17 @@ Tasks:
 sudo apt install nginx
 ```
 
+```
+sudo systemctl enable nginx
+```
+
 - Create a directory /var/www/lab-site and add a sample index.html with the text "Welcome to Intern Lab"
 ```
 cd /var/www/
 ```
 
 ```
-mkdir index.html
+mkdir lab-site
 ```
 
 ```

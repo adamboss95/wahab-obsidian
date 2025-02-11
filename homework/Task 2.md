@@ -1,5 +1,6 @@
-Network Monitoring & Log Analysis  
-Objective: Monitor network traffic and analyze logs for suspicious activity.  
+## Network Monitoring & Log Analysis  
+
+- **Objective:** Monitor network traffic and analyze logs for suspicious activity.  
 Tasks:
 
 - Use tcpdump to capture 100 packets on interface eth0 and save to capture.pcap
@@ -68,7 +69,7 @@ done < "$mal_ip"
 ```
 
 
-Schedule the script to run hourly.
+- Schedule the script to run hourly.
 
 crontab -e
 

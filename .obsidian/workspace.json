@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Untitled 2.md",
+                "file": "homework/Task 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 2"
+              "title": "Task 1"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
+                "file": "Linux/Module 5 System Administration/Module 5 System Administration.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 4 Managing DHCP and DNS"
+              "title": "Module 5 System Administration"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "crontab",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,19 +180,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf7b5272bdc53b11",
+  "active": "9f75a177e1221cce",
   "lastOpenFiles": [
-    "extra/Mhsn/Linux/Linux Administration/3. System Administration.md",
+    "homework/Task 2.md",
+    "homework/Task 3.md",
+    "homework/Task 1.md",
+    "homework/Untitled.md",
+    "Linux/Module 5 System Administration/Module 5 System Administration.md",
+    "Linux/Terminal Commands/Commands by alphabetic order.md",
     "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
-    "homework/Untitled 2.md",
-    "homework/Untitled 3.md",
+    "extra/Mhsn/Linux/Linux Administration/3. System Administration.md",
     "Linux/Module 6 Shell Scripting/Module 6 Shell Scripting.md",
     "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "extra/Mhsn/Linux/Linux Administration/4. Shell Scripting.md",
     "extra/Mhsn/Linux/Linux Administration/2. Linux Fundamentals.md",
-    "homework/Task 1 Web Server Setup & Automation.md",
     "homework/IOA % IOC.md",
-    "homework/Untitled.md",
     "extra/sa/1st month/Module-7.md",
     "extra",
     "homework/s.md",
@@ -217,8 +218,6 @@
     "extra/sa/1st month/Module-6.md",
     "extra/sa/1st month/Module-5.md",
     "extra/sa/1st month/Module-5 (part 3).md",
-    "extra/sa/1st month/Module-5 (part 2).md",
-    "extra/sa/1st month/Module-4.md",
     "extra/sa/Pasted image 20250124170345.png",
     "extra/sa/Pasted image 20250121172927.png",
     "extra/sa/Pasted image 20250121172847.png",

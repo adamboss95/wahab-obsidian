@@ -1,6 +1,6 @@
 
-User Management & Security Hardening  
-Objective: Secure user accounts and audit system permissions.  
+## User Management & Security Hardening  
+**Objective**: Secure user accounts and audit system permissions.  
 Tasks:
 
 - Create two users: dev1 and dev2 with home directories

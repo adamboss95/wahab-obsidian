@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Untitled 2.md",
+                "file": "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 2"
+              "title": "Module 4 Linux Fundamentals"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "8080",
+                "query": "awk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,10 +183,12 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "extra/Mhsn/Linux/Linux Administration/4. Shell Scripting.md",
+    "extra/Mhsn/Linux/Linux Administration/2. Linux Fundamentals.md",
+    "homework/Untitled 2.md",
     "homework/Task 1 Web Server Setup & Automation.md",
     "Windows/Module 4 Managing DHCP and DNS/Module 4 Managing DHCP and DNS.md",
     "homework/IOA % IOC.md",
-    "homework/Untitled 2.md",
     "homework/Untitled.md",
     "homework/Untitled 3.md",
     "extra/sa/1st month/Module-7.md",
@@ -225,8 +228,6 @@
     "extra/sa/Pasted image 20250115173934.png",
     "extra/sa/Imp commands.md",
     "extra/sa/1st month",
-    "extra/sa",
-    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/8. Managing Storage Area Networks(SAN) and Failover Clustering..md",
-    "extra/Mhsn/Windows/Windows Server 2019 Adminisrtration/4. Managing File Servers and Storage.md"
+    "extra/sa"
   ]
 }

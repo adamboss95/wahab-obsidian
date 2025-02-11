@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crontab",
+                "query": "scp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f75a177e1221cce",
+  "active": "734f4892caaa4d54",
   "lastOpenFiles": [
     "homework/Untitled.md",
     "Windows/4. Managing DHCP and DNS.md",

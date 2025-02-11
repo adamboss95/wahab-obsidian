@@ -32,11 +32,17 @@ add these lines for configuration:
 ```
 #!/bin/bash
 logfiles="/var/log/auth.log"
-outputlogs="failed-logins.txt"
+mal_ip="/home/abdulwahab/mal_ip"
 
-grep "Failed password" $logfiles > $outputlogs
 
-echo "results saved to $outputlogs"
+grep "Failed password" $logfilenew > $outputfilenew
+
+
+awk '{print $(NF-3)}' $outputfilenew | sort | uniq >> $mal_ip
+
+
+echo "Results are saved to $outputfilenew"
+
 ```
 
 
@@ -47,15 +53,19 @@ echo "results saved to $outputlogs"
 
 we create and edit file blockip
 ```
-ipAddress="192.168.1.100"
+#!/bin/bash
 
-logfilenew="failed-logins.txt"
 
-if grep -q "$ipAddress" "$logfilenew"; then
-    sudo ufw deny from "$ipAddress" to any
-    echo "IP address $ipAddress has been blocked."
-else
-    echo "IP address $ipAddress not found in $logfilenew."
-fi
+mal_ip="/home/abdulwahab/mal_ip"
+
+
+
+while read -r ip; do
+    sudo ufw deny from "$ip" to any
+    echo "IP address $ip has been blocked."
+done < "$mal_ip"
+
 ```
 
+
+crontab -e

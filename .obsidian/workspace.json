@@ -35,7 +35,8 @@
               "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,11 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f75a177e1221cce",
+  "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
+    "Windows/5. Managing File Servers and Storage.md",
     "homework/Task 3.md",
     "homework/Untitled.md",
-    "Windows/5. Managing File Servers and Storage.md",
     "homework/s.md",
     "Windows/2. Window Server Introduction.md",
     "Windows/2. Windows Server Introduction.md",

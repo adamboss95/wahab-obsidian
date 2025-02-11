@@ -271,4 +271,10 @@ Real Life Example:
     - Imagine the same small shop, but now thousands of people are trying to enter at the same time. The shop will be overwhelmed, and real customers won't be able to enter.
 
 
+### Snort
+
+What is Snort?
+
+**Snort** is the foremost Open Source Intrusion Prevention System (IPS) in the world. Snort IPS uses a series of rules that help define malicious network activity and uses those rules to find packets that match against them and generates alerts for users.
+
 

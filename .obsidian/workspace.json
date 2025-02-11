@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/5. Managing File Servers and Storage.md",
+                "file": "homework/s.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Managing File Servers and Storage"
+              "title": "s"
             }
           }
         ],
@@ -183,8 +183,8 @@
   },
   "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
-    "Windows/2. Window Server Introduction.md",
     "Windows/5. Managing File Servers and Storage.md",
+    "Windows/2. Window Server Introduction.md",
     "Windows/2. Windows Server Introduction.md",
     "Windows/1. Lab Setup.md",
     "Windows/Images/Step 4 of Data Duplication.png",

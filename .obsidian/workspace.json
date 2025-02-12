@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/8. Implementing WSUS (Windows Software Update Service).md",
+                "file": "Windows/10. Implementing WSUS (Windows Software Update Service).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Implementing WSUS (Windows Software Update Service)"
+              "title": "10. Implementing WSUS (Windows Software Update Service)"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/8. Implementing WSUS (Windows Software Update Service).md",
+                "file": "Windows/10. Implementing WSUS (Windows Software Update Service).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 8. Implementing WSUS (Windows Software Update Service)"
+              "title": "Backlinks for 10. Implementing WSUS (Windows Software Update Service)"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/8. Implementing WSUS (Windows Software Update Service).md",
+                "file": "Windows/10. Implementing WSUS (Windows Software Update Service).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 8. Implementing WSUS (Windows Software Update Service)"
+              "title": "Outline of 10. Implementing WSUS (Windows Software Update Service)"
             }
           }
         ],
@@ -186,10 +186,10 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
-    "Windows/12.Performance Monitoring.md",
+    "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
     "Windows/11.Implementing a Virtual Private Network.md",
-    "Windows/6. Managing Storage Area Networks(SAN) and Failover Clustering.md",
-    "Windows/8. Implementing WSUS (Windows Software Update Service).md",
+    "Windows/10. Implementing WSUS (Windows Software Update Service).md",
+    "Windows/12.Performance Monitoring.md",
     "homework/Untitled.md",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129144117.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129143038.png",

@@ -43,3 +43,33 @@ IOC limitations:
 - **Purpose:** IOAs help detect and prevent attacks, while IOCs help investigate and mitigate the impact of breaches.
     
 - **Nature:** IOAs are proactive and behavior-based, while IOCs are reactive and evidence-based.
+
+
+
+
+
+### Real-Life Scenarios for IOA (Indicators of Attack) and IOC (Indicators of Compromise)
+
+#### Scenario for IOA (Indicators of Attack):
+
+Imagine an employee at a company receives a phishing email that tricks them into clicking a malicious link. The company's cybersecurity system detects unusual behavior, such as:
+
+- **Suspicious Network Traffic:** The employee's computer starts communicating with an unknown external server.
+    
+- **Unauthorized Access Attempts:** The system logs show multiple failed login attempts to access sensitive data.
+    
+
+These actions are **Indicators of Attack (IOA)** because they suggest an ongoing or imminent attack. The cybersecurity team can intervene, investigate, and prevent potential damage by blocking the malicious traffic and securing the employee's account.
+
+#### Scenario for IOC (Indicators of Compromise):
+
+Later, the cybersecurity team conducts a routine audit and discovers:
+
+- **Malware Signatures:** Specific malware files are found on the network.
+    
+- **Unusual File Modifications:** Critical system files have been altered without authorization.
+    
+- **Unauthorized Data Access:** Logs show that sensitive data was accessed by an unauthorized user.
+    
+
+These signs are **Indicators of Compromise (IOC)** because they provide evidence that the network has already been compromised. The team can then take steps to contain the breach, remove the malware, and strengthen security measures to prevent future incidents.

@@ -20,7 +20,7 @@ DNS
 
 
 - Syslogs in windows
-- Event Viewers (logs)
+- Event Viewers (logs), Even
 - sysmon
 - registry
 

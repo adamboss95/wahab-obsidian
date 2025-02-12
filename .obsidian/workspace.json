@@ -50,7 +50,8 @@
               "title": "s"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/11.Implementing a Virtual Private Network.md",
+                "file": "homework/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 11.Implementing a Virtual Private Network"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/11.Implementing a Virtual Private Network.md",
+                "file": "homework/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11.Implementing a Virtual Private Network"
+              "title": "Outline of Untitled"
             }
           }
         ],
@@ -198,11 +199,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f75a177e1221cce",
+  "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
+    "Windows/11.Implementing a Virtual Private Network.md",
     "homework/s.md",
     "homework/Untitled.md",
-    "Windows/11.Implementing a Virtual Private Network.md",
     "Windows/10. Implementing WSUS (Windows Software Update Service).md",
     "Windows/5. Managing File Servers and Storage.md",
     "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",

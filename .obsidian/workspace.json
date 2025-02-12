@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scp",
+                "query": "namespace",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,9 +186,10 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
-    "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
     "Windows/11.Implementing a Virtual Private Network.md",
+    "Windows/5. Managing File Servers and Storage.md",
     "Windows/10. Implementing WSUS (Windows Software Update Service).md",
+    "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
     "Windows/12.Performance Monitoring.md",
     "homework/Untitled.md",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129144117.png",
@@ -201,7 +202,6 @@
     "Linux/Module 8 Disk Management and Run Levels/Module 8 Disk Management and Run Levels.md",
     "Linux/Module 8 Disk Management and Run Levels/Images",
     "Linux/Module 8 Disk Management and Run Levels",
-    "Windows/5. Managing File Servers and Storage.md",
     "Windows/4. Managing DHCP and DNS.md",
     "homework/Task 3.md",
     "homework/s.md",

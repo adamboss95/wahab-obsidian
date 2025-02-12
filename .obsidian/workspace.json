@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/6..md",
+                "file": "Windows/8. Implementing WSUS (Windows Software Update Service).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6."
+              "title": "8. Implementing WSUS (Windows Software Update Service)"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/6..md",
+                "file": "Windows/8. Implementing WSUS (Windows Software Update Service).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 6."
+              "title": "Backlinks for 8. Implementing WSUS (Windows Software Update Service)"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/6..md",
+                "file": "Windows/8. Implementing WSUS (Windows Software Update Service).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6."
+              "title": "Outline of 8. Implementing WSUS (Windows Software Update Service)"
             }
           }
         ],
@@ -186,8 +186,11 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "Windows/12.Performance Monitoring.md",
+    "Windows/11.Implementing a Virtual Private Network.md",
+    "Windows/6. Managing Storage Area Networks(SAN) and Failover Clustering.md",
+    "Windows/8. Implementing WSUS (Windows Software Update Service).md",
     "homework/Untitled.md",
-    "Windows/6..md",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129144117.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129143038.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129112529.png",
@@ -221,9 +224,7 @@
     "extra/Mhsn/Linux/Linux Administration/4. Shell Scripting.md",
     "extra/Mhsn/Linux/Linux Administration/2. Linux Fundamentals.md",
     "homework/IOA % IOC.md",
-    "extra/sa/1st month/Module-7.md",
     "extra",
-    "extra/windows sa/Module - 3.md",
     "extra/windows sa",
     "Windows/Images",
     "Windows/Module 2/Images",

@@ -27,13 +27,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Untitled.md",
+                "file": "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "8. Managing Storage Area Networks(SAN) and Failover Clustering"
             }
           },
           {
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "namespace",
+                "query": "iscsi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +104,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,12 +202,13 @@
   },
   "active": "eafd89ceb456e615",
   "lastOpenFiles": [
+    "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
+    "Windows/5. Managing File Servers and Storage.md",
+    "homework/Untitled.md",
+    "homework/IOA & IOC.md",
     "homework/s.md",
     "Windows/11.Implementing a Virtual Private Network.md",
-    "homework/Untitled.md",
     "Windows/10. Implementing WSUS (Windows Software Update Service).md",
-    "Windows/5. Managing File Servers and Storage.md",
-    "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
     "Windows/12.Performance Monitoring.md",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129144117.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129143038.png",
@@ -238,7 +240,6 @@
     "Linux/Module 4 Linux Fundamentals/Module 4 Linux Fundamentals.md",
     "extra/Mhsn/Linux/Linux Administration/4. Shell Scripting.md",
     "extra/Mhsn/Linux/Linux Administration/2. Linux Fundamentals.md",
-    "homework/IOA & IOC.md",
     "extra",
     "extra/windows sa",
     "Windows/Images",

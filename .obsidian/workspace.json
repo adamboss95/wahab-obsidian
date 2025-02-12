@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/5. Managing File Servers and Storage.md",
+                "file": "homework/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Managing File Servers and Storage"
+              "title": "Untitled"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/5. Managing File Servers and Storage.md",
+                "file": "homework/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 5. Managing File Servers and Storage"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/5. Managing File Servers and Storage.md",
+                "file": "homework/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5. Managing File Servers and Storage"
+              "title": "Outline of Untitled"
             }
           }
         ],
@@ -184,11 +184,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "beca1bfd8aee18bb",
+  "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "Windows/5. Managing File Servers and Storage.md",
     "homework/Untitled.md",
     "Windows/4. Managing DHCP and DNS.md",
-    "Windows/5. Managing File Servers and Storage.md",
     "homework/Task 3.md",
     "homework/s.md",
     "Windows/2. Window Server Introduction.md",

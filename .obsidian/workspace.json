@@ -27,13 +27,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Learning.md",
+                "file": "Windows/2. Window Server Introduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Learning"
+              "title": "2. Window Server Introduction"
             }
           },
           {
@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Untitled.md",
+                "file": "homework/Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Learning"
             }
           }
         ],
@@ -201,11 +201,12 @@
   },
   "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
-    "Windows/11.Implementing a Virtual Private Network.md",
+    "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
     "homework/Learning.md",
+    "homework/Untitled.md",
+    "Windows/11.Implementing a Virtual Private Network.md",
     "homework/s.md",
     "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
-    "homework/Untitled.md",
     "Windows/2. Window Server Introduction.md",
     "Windows/1. Lab Setup.md",
     "homework/IOA & IOC.md",
@@ -228,7 +229,6 @@
     "Windows/Images/Step 4 of Data Duplication.png",
     "Windows/Images/Step 3 of Data Duplication.png",
     "Windows/Images/Step 2 of Data Deduplication.png",
-    "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
     "README.md",
     "homework/Task 2.md",
     "homework/Difference.md",

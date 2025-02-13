@@ -44,3 +44,11 @@ A **hypervisor** is software that allows multiple virtual machines (VMs) to run 
     - Easier to set up but less efficient than Type 1.
         
     - Examples: VMware Workstation, Oracle VM VirtualBox, Parallels Desktop.
+
+
+
+
+
+
+
+

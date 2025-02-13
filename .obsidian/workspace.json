@@ -42,16 +42,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/2. Window Server Introduction.md",
+                "file": "homework/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Window Server Introduction"
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "iscsi",
+                "query": "port forwarding",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +104,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,15 +200,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eafd89ceb456e615",
+  "active": "734f4892caaa4d54",
   "lastOpenFiles": [
-    "Windows/1. Lab Setup.md",
+    "homework/Untitled.md",
     "Windows/2. Window Server Introduction.md",
+    "Windows/1. Lab Setup.md",
     "homework/IOA & IOC.md",
     "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
     "Windows/11.Implementing a Virtual Private Network.md",
     "Windows/5. Managing File Servers and Storage.md",
-    "homework/Untitled.md",
     "homework/s.md",
     "Windows/10. Implementing WSUS (Windows Software Update Service).md",
     "Windows/12.Performance Monitoring.md",

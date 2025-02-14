@@ -30,5 +30,5 @@ A **supply chain attack** targets a trusted third-party vendor to gain access to
 
 
 
-threat intel
-virus total
+what is threat intel? where do we collect data from?
+virus total, abusei

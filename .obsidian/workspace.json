@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,16 +199,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eafd89ceb456e615",
+  "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
+    "Windows/1. Lab Setup.md",
     "Windows/2. Window Server Introduction.md",
-    "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
-    "homework/Learning.md",
-    "homework/Untitled.md",
     "Windows/11.Implementing a Virtual Private Network.md",
+    "homework/Learning.md",
+    "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
+    "homework/Untitled.md",
     "homework/s.md",
     "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
-    "Windows/1. Lab Setup.md",
     "homework/IOA & IOC.md",
     "Windows/5. Managing File Servers and Storage.md",
     "Windows/10. Implementing WSUS (Windows Software Update Service).md",

@@ -35,5 +35,16 @@ what is threat intel? where do we collect data from?
 
 
 
-websites
+intel websites
 virus total, abuseipdp
+Recorded Future
+ThreatConnect
+Digital Guardian
+eSecurity Planet
+Comparitech
+D3 Security
+Cisco Talos Intelligence
+Google Safe Browsing
+
+
+botnets, its attack

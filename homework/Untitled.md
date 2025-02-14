@@ -53,3 +53,7 @@ RAID -> Sector of disks
 
 
 
+event id 7045 installed service
+event id 4624 succ login
+event id 4625 failed login
+event id 4723 event generates every time a user attempts to change his or her password

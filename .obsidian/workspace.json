@@ -92,8 +92,7 @@
               "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,7 +240,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf7b5272bdc53b11",
+  "active": "9f75a177e1221cce",
   "lastOpenFiles": [
     "homework/Untitled.md",
     "Windows/4. Managing DHCP and DNS.md",

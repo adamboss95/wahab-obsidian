@@ -31,4 +31,9 @@ A **supply chain attack** targets a trusted third-party vendor to gain access to
 
 
 what is threat intel? where do we collect data from?
-virus total, abusei
+**Threat intelligence**, also known as **cyber threat intelligence (CTI)**, is data collected, processed, and analyzed to understand and anticipate cyber threats. It helps organizations make informed decisions to protect against potential attacks.
+
+
+
+websites
+virus total, abuseipdp

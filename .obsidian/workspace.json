@@ -65,20 +65,6 @@
             }
           },
           {
-            "id": "ccc77fc1d0d6bea7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/10. Implementing WSUS (Windows Software Update Service).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10. Implementing WSUS (Windows Software Update Service)"
-            }
-          },
-          {
             "id": "d12b595f9bafe8ee",
             "type": "leaf",
             "state": {
@@ -93,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -241,20 +227,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf7b5272bdc53b11",
+  "active": "d12b595f9bafe8ee",
   "lastOpenFiles": [
-    "homework/Untitled.md",
     "Windows/5. Managing File Servers and Storage.md",
+    "homework/Untitled.md",
+    "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
+    "Windows/10. Implementing WSUS (Windows Software Update Service).md",
     "Windows/4. Managing DHCP and DNS.md",
     "Windows/11.Implementing a Virtual Private Network.md",
     "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
-    "Windows/10. Implementing WSUS (Windows Software Update Service).md",
     "homework/Root System Directories.md",
     "homework/s.md",
     "Windows/2. Window Server Introduction.md",
     "homework/Learning.md",
     "Windows/1. Lab Setup.md",
-    "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
     "homework/IOA & IOC.md",
     "Windows/12.Performance Monitoring.md",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129144117.png",

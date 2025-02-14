@@ -28,3 +28,7 @@ A **supply chain attack** targets a trusted third-party vendor to gain access to
     
 4. **Analysis:** The information gathered is used to improve security measures and protect real systems.
 
+
+
+threat intel
+virus total

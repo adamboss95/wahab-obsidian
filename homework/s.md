@@ -1,29 +1,4 @@
 
-### Phishing Types
-##### Spear phishing
-[Spear phishing] involves targeting a specific individual in an organization to try to steal their [login credentials]. The attacker often first gathers information about the person before starting the attack, such as their name, position, and contact details.
-##### Email phishing
-In an [email phishing] scam, the attacker sends an email that looks legitimate, designed to trick the recipient into entering information in reply or on a site that the hacker can use to steal or sell their data.
-
-##### Pharming
-In a [pharming] attack, the victim gets malicious code installed on their computer. This code then sends the victim to a fake website designed to gather their login credentials.
-
-##### Evil Twin Attack
-In an evil twin attack, the hacker sets up a false Wi-Fi network that looks real. If someone logs in to it and enters sensitive details, the hacker captures their info.
-
-##### Whaling Attack
-A [whaling attack] is a phishing attack that targets a senior executive. These individuals often have deep access to sensitive areas of the network, so a successful attack can result in access to valuable info.
-
-##### Clone Phishing Attack
-A clone phishing attack involves a hacker making an identical copy of a message the recipient already received. They may include something like “resending this” and put a malicious link in the email.
-
-##### Deceptive phishing
-Deceptive phishers use [deceptive technology] to pretend they are with a real company to inform the targets they are already experiencing a cyberattack. The users then click on a malicious link, infecting their computer.
-
-##### Social Engineering
-[Social engineering] attacks pressure someone into revealing sensitive information by manipulating them psychologically.
-
-
 
 ### Brute Force Attack:
 A hacking method that involves systematically trying every possible combination of passwords or keys until the correct one is found.

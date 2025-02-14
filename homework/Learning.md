@@ -47,4 +47,13 @@ Cisco Talos Intelligence
 Google Safe Browsing
 
 
-botnets, its attack
+## botnets, its attack
+
+**Botnet** attacks use a command and control model to allow one or more hackers to drive the actions of those devices (often called ‘zombie bots’) from a remote location. The more devices that have been infected with the attacker’s malware, the stronger the attack is likely to be
+
+### How do botnet attacks work?
+
+Botnet attacks can be carried out by a single person or team. Either way, a force of zombie bots is controlled by the bot herder, which is the individual or group driving the attack. The bot herder can build their own botnet from scratch or rent it from other bad actors (sometimes dubbed “malware-as-a-service,” or MaaS).  
+  
+
+Once infected, zombie bots are anonymously controlled via a centralized client-server model or decentralized peer-to-peer (P2P) model.

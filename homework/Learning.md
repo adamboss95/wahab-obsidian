@@ -6,6 +6,10 @@
 
 A **sinkhole attack** is a cybersecurity technique where malicious traffic is redirected to a controlled server (the "sinkhole") instead of its intended target.
 
+## Difference Between Witch Attack Sinkhole Attack
+
+- If a compromised system in an organization is not known to be compromised, it is a **witch attack**, if it is known and data is leaking then it is **sinkhole attack**
+
 ## Supply chain Attack
 A **supply chain attack** targets a trusted third-party vendor to gain access to their larger trading partners. For example, attackers might insert malicious code into software updates from a trusted vendor, which then spreads to all users of that software.
 

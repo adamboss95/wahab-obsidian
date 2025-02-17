@@ -27,13 +27,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Feb17.md",
+                "file": "homework/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Feb17"
+              "title": "Untitled"
             }
           },
           {
@@ -243,14 +243,18 @@
   },
   "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
+    "homework/Task 3.md",
+    "homework/Root System Directories.md",
+    "homework/Feb17.md",
+    "homework/Difference.md",
+    "homework/DMZ.md",
+    "homework/elastic architecture.md",
+    "homework/Learning.md",
     "homework/Untitled 1.md",
     "homework/Untitled.md",
     "Windows/5. Managing File Servers and Storage.md",
-    "homework/Feb17.md",
     "Windows/4. Managing DHCP and DNS.md",
     "homework/s.md",
-    "homework/Learning.md",
-    "homework/elastic architecture.md",
     "Windows/Images/Pasted image 20250217125547.png",
     "homework/Raid.md",
     "Windows/12.Performance Monitoring.md",
@@ -259,7 +263,6 @@
     "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
     "Windows/10. Implementing WSUS (Windows Software Update Service).md",
     "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
-    "homework/Root System Directories.md",
     "Windows/2. Window Server Introduction.md",
     "Windows/1. Lab Setup.md",
     "homework/IOA & IOC.md",
@@ -273,14 +276,11 @@
     "Linux/Module 8 Disk Management and Run Levels/Module 8 Disk Management and Run Levels.md",
     "Linux/Module 8 Disk Management and Run Levels/Images",
     "Linux/Module 8 Disk Management and Run Levels",
-    "homework/Task 3.md",
     "Windows/2. Windows Server Introduction.md",
     "Windows/Images/Step 4 of Data Duplication.png",
     "Windows/Images/Step 3 of Data Duplication.png",
     "README.md",
     "homework/Task 2.md",
-    "homework/Difference.md",
-    "homework/Task 1.md",
     "extra",
     "extra/windows sa",
     "Windows/Images",

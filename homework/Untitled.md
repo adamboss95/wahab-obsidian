@@ -12,7 +12,7 @@ DNS
 | File System | Maximum Volume Size | Maximum File Size |
 | ----------- | ------------------- | ----------------- |
 | FAT32       | 2 TB                | 4 GB              |
-| NTFS        | 16 exabytes (EB)    | 16 exabytes (EB)  |
+| NTFS        | 8 petabytes (PB)    | 16 TB (TB)        |
 | ReFS        | 1 Yottabyte (YB)    | 16 Exabytes (16)  |
 **FAT32:** Suitable for smaller volumes and files, but limited to 4 GB per file
 **NTFS:** Ideal for most users with large volume and file size support

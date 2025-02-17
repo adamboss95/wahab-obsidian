@@ -1,0 +1,2 @@
+### Wiresha
+**Wireshark** is not a protocol itself, but rather a powerful **network protocol analyzer** used to capture and inspect network traffic. It allows users to see the detailed contents of network packets, making it an invaluable tool for network administrators, security professionals, and anyone interested in understanding network protocols.

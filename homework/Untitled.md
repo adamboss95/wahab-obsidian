@@ -13,7 +13,7 @@ DNS
 | ----------- | ------------------- | ----------------- |
 | FAT32       | 2 TB                | 4 GB              |
 | NTFS        | 8 petabytes (PB)    | 16 TB (TB)        |
-| ReFS        | 1 Yottabyte (YB)    | 16 Exabytes (16)  |
+| ReFS        | 35 PB (petabytes)   | 35 PB (petabytes) |
 **FAT32:** Suitable for smaller volumes and files, but limited to 4 GB per file
 **NTFS:** Ideal for most users with large volume and file size support
 **ReFS:** Designed for high resiliency and large-scale data storage, supporting even larger volumes and files

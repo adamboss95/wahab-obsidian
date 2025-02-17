@@ -27,13 +27,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Untitled.md",
+                "file": "homework/Feb17.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Feb17"
             }
           },
           {
@@ -243,6 +243,8 @@
   },
   "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
+    "homework/Untitled 1.md",
+    "homework/Untitled.md",
     "Windows/5. Managing File Servers and Storage.md",
     "homework/Feb17.md",
     "Windows/4. Managing DHCP and DNS.md",
@@ -251,9 +253,7 @@
     "homework/elastic architecture.md",
     "Windows/Images/Pasted image 20250217125547.png",
     "homework/Raid.md",
-    "homework/Untitled.md",
     "Windows/12.Performance Monitoring.md",
-    "homework/Untitled 1.md",
     "Windows/11.Implementing a Virtual Private Network.md",
     "homework/Phishing.md",
     "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",

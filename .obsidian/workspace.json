@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,18 +241,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5dac0bc918fc665",
+  "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
+    "homework/Feb17.md",
+    "Windows/4. Managing DHCP and DNS.md",
     "Windows/5. Managing File Servers and Storage.md",
     "homework/s.md",
-    "homework/Feb17.md",
     "homework/Learning.md",
     "homework/elastic architecture.md",
     "Windows/Images/Pasted image 20250217125547.png",
     "homework/Raid.md",
     "homework/Untitled.md",
     "Windows/12.Performance Monitoring.md",
-    "Windows/4. Managing DHCP and DNS.md",
     "homework/Untitled 1.md",
     "Windows/11.Implementing a Virtual Private Network.md",
     "homework/Phishing.md",

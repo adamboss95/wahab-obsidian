@@ -27,13 +27,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/4. Managing DHCP and DNS.md",
+                "file": "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4. Managing DHCP and DNS"
+              "title": "8. Managing Storage Area Networks(SAN) and Failover Clustering"
             }
           },
           {
@@ -243,6 +243,8 @@
   },
   "active": "bf7b5272bdc53b11",
   "lastOpenFiles": [
+    "Windows/5. Managing File Servers and Storage.md",
+    "Windows/4. Managing DHCP and DNS.md",
     "homework/Raid.md",
     "homework/Root System Directories.md",
     "homework/s.md",
@@ -253,13 +255,11 @@
     "homework/Untitled.md",
     "homework/Phishing.md",
     "homework/IOA & IOC.md",
-    "Windows/4. Managing DHCP and DNS.md",
     "homework/Feb17.md",
     "homework/Difference.md",
     "homework/DMZ.md",
     "homework/elastic architecture.md",
     "homework/Learning.md",
-    "Windows/5. Managing File Servers and Storage.md",
     "Windows/Images/Pasted image 20250217125547.png",
     "Windows/12.Performance Monitoring.md",
     "Windows/11.Implementing a Virtual Private Network.md",

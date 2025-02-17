@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Learning.md",
+                "file": "Windows/4. Managing DHCP and DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learning"
+              "title": "4. Managing DHCP and DNS"
             }
           }
         ],
@@ -229,11 +229,11 @@
   },
   "active": "d12b595f9bafe8ee",
   "lastOpenFiles": [
+    "homework/Learning.md",
     "homework/s.md",
     "Windows/5. Managing File Servers and Storage.md",
     "Windows/11.Implementing a Virtual Private Network.md",
     "homework/Phishing.md",
-    "homework/Learning.md",
     "homework/Untitled.md",
     "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
     "Windows/10. Implementing WSUS (Windows Software Update Service).md",

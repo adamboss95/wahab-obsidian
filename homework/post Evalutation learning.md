@@ -9,8 +9,8 @@ Translates private IP to public IP and Public IP to Private IP to gain access to
 ### DMARC (Domain-based Message Authentication, Reporting & Conformance)
 
 - **Purpose**: Provides instructions to receiving email servers on how to handle emails that fail SPF or DKIM checks
-**Function**: Allows domain owners to publish policies in their DNS records, specifying how to check the From field and what to do if the email fails authentication
-**Benefits**: Helps protect domains from being used in email scams and phishing attacks
+- **Function**: Allows domain owners to publish policies in their DNS records, specifying how to check the From field and what to do if the email fails authentication
+- **Benefits**: Helps protect domains from being used in email scams and phishing attacks
 ### DKIM (DomainKeys Identified Mail)
 
 - **Purpose**: Verifies that an email message was not altered in transit and that it truly comes from the claimed domain

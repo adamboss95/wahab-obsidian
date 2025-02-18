@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/post Evalutation learning.md",
+                "file": "homework/Elastic Recording Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "post Evalutation learning"
+              "title": "Elastic Recording Notes"
             }
           },
           {
@@ -243,8 +243,9 @@
   },
   "active": "c219537b44a53ba5",
   "lastOpenFiles": [
-    "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
     "homework/post Evalutation learning.md",
+    "homework/Elastic Recording Notes.md",
+    "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
     "Windows/4. Managing DHCP and DNS.md",
     "Windows/5. Managing File Servers and Storage.md",
     "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
@@ -276,7 +277,6 @@
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250128172248.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129095854.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129095642.png",
-    "Linux/Module 8 Disk Management and Run Levels/Module 8 Disk Management and Run Levels.md",
     "Linux/Module 8 Disk Management and Run Levels/Images",
     "Linux/Module 8 Disk Management and Run Levels",
     "Windows/Images/Step 4 of Data Duplication.png",

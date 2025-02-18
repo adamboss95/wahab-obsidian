@@ -84,16 +84,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Feb17.md",
+                "file": "homework/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Feb17"
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -241,13 +241,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf7b5272bdc53b11",
+  "active": "c5dac0bc918fc665",
   "lastOpenFiles": [
+    "homework/Feb17.md",
+    "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
     "Windows/2. Window Server Introduction.md",
     "homework/Difference.md",
     "homework/DMZ.md",
     "homework/elastic architecture.md",
-    "homework/Feb17.md",
     "homework/IOA & IOC.md",
     "homework/Learning.md",
     "homework/Untitled 1.md",
@@ -266,7 +267,6 @@
     "Windows/12.Performance Monitoring.md",
     "Windows/11.Implementing a Virtual Private Network.md",
     "Windows/10. Implementing WSUS (Windows Software Update Service).md",
-    "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
     "Windows/1. Lab Setup.md",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129144117.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129143038.png",

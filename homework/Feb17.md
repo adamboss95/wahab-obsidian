@@ -61,41 +61,5 @@ true negative
 \
 
 
-### RAID 0 (Striping)
 
-- **Function**: Splits data evenly across two or more disks.
-    
-- **Benefit**: Increased performance as data is read/written simultaneously.
-    
-- **Drawback**: No redundancy. If one disk fails, all data is lost.
-    
-
-### RAID 1 (Mirroring)
-
-- **Function**: Duplicates the same data on two or more disks.
-    
-- **Benefit**: High redundancy. If one disk fails, data can be recovered from the other.
-    
-- **Drawback**: No performance improvement. Storage capacity is halved.
-    
-
-### RAID 5 (Striping with Parity)
-
-- **Function**: Distributes data and parity (error-checking) information across three or more disks.
-    
-- **Benefit**: Balance of performance, storage efficiency, and redundancy. Can withstand a single disk failure.
-    
-- **Drawback**: Slightly reduced write performance due to parity calculations.
-    
-
-### RAID 10 (1+0, Mirroring + Striping)
-
-- **Function**: Combines RAID 1 and RAID 0. Data is mirrored and then striped across multiple disks.
-    
-- **Benefit**: High redundancy and performance. Can withstand multiple disk failures if they are in different mirrored pairs.
-    
-- **Drawback**: High cost. Requires at least four disks and storage capacity is halved.
-    
-
-In essence, different RAID levels offer varying balances between performance, redundancy, and cost. The right choice depends on your specific storage needs and budget. Anything else you'd like to delve into?
 

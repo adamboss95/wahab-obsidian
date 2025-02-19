@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/NAT.md",
+                "file": "homework/Certificate Authority (CA).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NAT"
+              "title": "Certificate Authority (CA)"
             }
           },
           {
@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Untitled 1.md",
+                "file": "homework/Wireshark.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Wireshark"
             }
           }
         ],
@@ -243,8 +243,19 @@
   },
   "active": "eafd89ceb456e615",
   "lastOpenFiles": [
-    "homework/Dmark SPF DKIM.md",
+    "homework/KDC CA.md",
+    "homework/Certificate Authority (CA).md",
+    "homework/Attacks/Threat Intel.md",
+    "homework/Attacks/Witch, Sinkhole, Honeypot, Supply Chain.md",
+    "homework/Attacks/Brute Force Attack.md",
+    "homework/Attacks/Botnets.md",
+    "homework/Attacks",
+    "homework/Attacks/MITRE Attack.md",
+    "homework/Attacks/Phishing.md",
     "homework/NAT.md",
+    "homework/Wireshark.md",
+    "homework/Hypervisor.md",
+    "homework/Dmark SPF DKIM.md",
     "homework/Raid.md",
     "homework/Feb17.md",
     "homework/IOA & IOC.md",
@@ -252,9 +263,6 @@
     "homework/elastic architecture.md",
     "homework/DMZ.md",
     "homework/Difference.md",
-    "homework/Certificate Authority (CA).md",
-    "homework/Untitled.md",
-    "homework/Untitled 1.md",
     "Windows/Images/Pasted image 20250218164811.png",
     "Windows/3. Active Directory Domain Services on Windows Server 2019.md",
     "Windows/4. Managing DHCP and DNS.md",
@@ -263,13 +271,6 @@
     "Windows/2. Window Server Introduction.md",
     "Windows/12.Performance Monitoring.md",
     "Windows/11.Implementing a Virtual Private Network.md",
-    "Windows/10. Implementing WSUS (Windows Software Update Service).md",
-    "homework/Learning.md",
-    "homework/Task 3.md",
-    "homework/Task 2.md",
-    "homework/Task 1.md",
-    "homework/s.md",
-    "homework/Root System Directories.md",
     "Windows/Images/Pasted image 20250217125547.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129144117.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129143038.png",
@@ -287,7 +288,6 @@
     "Windows/Module 2/Images",
     "Windows/Module 4 Managing DHCP and DNS",
     "Windows/Module 3 Active Directory Domain Services on Windows Server 2019",
-    "Windows/Module 2",
-    "Windows"
+    "Windows/Module 2"
   ]
 }

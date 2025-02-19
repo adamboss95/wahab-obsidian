@@ -92,8 +92,7 @@
               "title": "Wireshark"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "internet leak",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -242,10 +241,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "734f4892caaa4d54",
+  "active": "9f75a177e1221cce",
   "lastOpenFiles": [
-    "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
+    "homework/Elastic Recording Notes.md",
     "homework/Attacks/Leak Internet.md",
+    "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
     "homework/CA.md",
     "homework/KDC.md",
     "homework/s.md",
@@ -265,7 +265,6 @@
     "homework/Raid.md",
     "homework/Feb17.md",
     "homework/IOA & IOC.md",
-    "homework/Elastic Recording Notes.md",
     "homework/elastic architecture.md",
     "homework/DMZ.md",
     "homework/Difference.md",

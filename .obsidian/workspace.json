@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Feb17.md",
+                "file": "homework/Difference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Feb17"
+              "title": "Difference"
             }
           },
           {
@@ -243,6 +243,8 @@
   },
   "active": "eafd89ceb456e615",
   "lastOpenFiles": [
+    "homework/Certificate Authority (CA).md",
+    "homework/Feb17.md",
     "homework/Untitled.md",
     "homework/Untitled 1.md",
     "homework/Raid.md",
@@ -257,7 +259,6 @@
     "Windows/12.Performance Monitoring.md",
     "Windows/11.Implementing a Virtual Private Network.md",
     "Windows/10. Implementing WSUS (Windows Software Update Service).md",
-    "homework/Feb17.md",
     "homework/Difference.md",
     "homework/DMZ.md",
     "homework/elastic architecture.md",

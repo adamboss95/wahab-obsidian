@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homework/Certificate Authority (CA).md",
+                "file": "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Certificate Authority (CA)"
+              "title": "8. Managing Storage Area Networks(SAN) and Failover Clustering"
             }
           },
           {
@@ -243,14 +243,17 @@
   },
   "active": "eafd89ceb456e615",
   "lastOpenFiles": [
-    "homework/KDC CA.md",
-    "homework/Certificate Authority (CA).md",
+    "homework/CA.md",
+    "homework/KDC.md",
+    "homework/s.md",
+    "homework/Attacks/Ransomware.md",
+    "homework/Attacks/Cyber Kill Chain.md",
+    "homework/Attacks/MITRE Attack.md",
     "homework/Attacks/Threat Intel.md",
     "homework/Attacks/Witch, Sinkhole, Honeypot, Supply Chain.md",
     "homework/Attacks/Brute Force Attack.md",
     "homework/Attacks/Botnets.md",
     "homework/Attacks",
-    "homework/Attacks/MITRE Attack.md",
     "homework/Attacks/Phishing.md",
     "homework/NAT.md",
     "homework/Wireshark.md",
@@ -268,9 +271,6 @@
     "Windows/4. Managing DHCP and DNS.md",
     "Windows/5. Managing File Servers and Storage.md",
     "Windows/8. Managing Storage Area Networks(SAN) and Failover Clustering.md",
-    "Windows/2. Window Server Introduction.md",
-    "Windows/12.Performance Monitoring.md",
-    "Windows/11.Implementing a Virtual Private Network.md",
     "Windows/Images/Pasted image 20250217125547.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129144117.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129143038.png",

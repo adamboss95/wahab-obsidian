@@ -22,6 +22,7 @@ A **Certificate Authority (CA)** is an entity that issues digital certificates. 
 
 Yes, **Certificate Authorities (CAs)** use a pair of cryptographic keys, consisting of a **private key** and a **public key**, to issue and verify digital certificates. Here’s how they work together:
 
+
 ### How CAs Use Private and Public Keys:
 
 4. **Private Key**:

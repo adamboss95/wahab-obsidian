@@ -145,8 +145,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -243,6 +242,14 @@
   },
   "active": "9f75a177e1221cce",
   "lastOpenFiles": [
+    "Windows/Windows Event Log Analysis/Windows Event Log Analysis.md",
+    "Windows/Windows Event Log Analysis",
+    "Windows/Windows Eventlog Analysis/Windows Event Log Analysis.md",
+    "Windows/Windows Eventlog Analysis",
+    "Windows/Windows Analysis/Windows Event Log Analysis.md",
+    "Windows/Windows Analysis",
+    "Untitled.md",
+    "Windows/5. Managing File Servers and Storage.md",
     "Windows/4. Managing DHCP and DNS.md",
     "Windows/11.Implementing a Virtual Private Network.md",
     "homework/Elastic Recording Notes.md",
@@ -265,11 +272,6 @@
     "homework/Hypervisor.md",
     "homework/Dmark SPF DKIM.md",
     "homework/Raid.md",
-    "homework/Feb17.md",
-    "homework/IOA & IOC.md",
-    "homework/elastic architecture.md",
-    "homework/DMZ.md",
-    "homework/Difference.md",
     "Windows/Images/Pasted image 20250218164811.png",
     "Windows/Images/Pasted image 20250217125547.png",
     "Linux/Module 8 Disk Management and Run Levels/Images/Pasted image 20250129144117.png",
@@ -285,9 +287,6 @@
     "extra",
     "extra/windows sa",
     "Windows/Images",
-    "Windows/Module 2/Images",
-    "Windows/Module 4 Managing DHCP and DNS",
-    "Windows/Module 3 Active Directory Domain Services on Windows Server 2019",
-    "Windows/Module 2"
+    "Windows/Module 2/Images"
   ]
 }
